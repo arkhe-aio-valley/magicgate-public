@@ -218,16 +218,25 @@ O MagicGate não é apenas uma tese de redução de custo. É uma tese de **oper
 
 ## Modelo comercial de referência
 
-O modelo comercial de referência atual considera SaaS empresarial recorrente:
+O MagicGate adota um modelo de entrada acessível, com expansão por necessidade e valor comprovado.
 
-- **Enterprise:** US$ 2.500/mês por organização;
-- **Usuário autorizado:** US$ 300/mês por usuário.
+### MagicGate Base / Individual
 
-```text
-MRR = US$ 2.500 + (US$ 300 × usuários)
-```
+**US$ 19/mês**
 
-Esses valores representam o modelo comercial de referência atual e podem evoluir conforme produto, mercado e validação comercial avancem.
+Este é o **preço-base aprovado**.
+
+### Propostas de planos em validação
+
+| Plano | Referência mensal | Situação |
+|---|---:|---|
+| Base / Individual | **US$ 19** | **Preço-base aprovado** |
+| Pro | **US$ 49** | Proposta em validação |
+| Business | **US$ 99** | Proposta em validação |
+| Teams | **US$ 199+** | Proposta em validação |
+| Enterprise | **Sob contrato** | Proposta comercial personalizada |
+
+Somente o plano Base / Individual de **US$ 19/mês** deve ser tratado como preço-base aprovado neste momento. Os demais valores são referências comerciais em validação e podem mudar antes da oferta definitiva.
 
 ---
 
@@ -356,7 +365,7 @@ A meta de aproximadamente **60% de redução potencial de horas humanas** repres
 
 O MagicGate utiliza telemetria e métricas para substituir progressivamente estimativas por evidências reais de execução.
 
-Os valores comerciais apresentados representam referências atuais e não constituem previsão de receita, aquisição de clientes ou valuation.
+O preço-base aprovado é **US$ 19/mês** para o plano Base / Individual. As referências de **US$ 49/mês para Pro**, **US$ 99/mês para Business** e **US$ 199+/mês para Teams** permanecem em validação comercial; o plano Enterprise é definido sob contrato. Esses valores não constituem previsão de receita, aquisição de clientes ou valuation.
 
 ---
 
