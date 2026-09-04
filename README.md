@@ -1,198 +1,222 @@
 # MAGICGATE
 
-<p align="center"><strong>Da intenção à execução. Da execução à evidência. Da evidência à escala.</strong></p>
+**Da intenção à execução. Da execução à evidência. Da evidência à escala.**
 
-## Uma camada de execução para engenharia de software
+## Visão
 
-**MagicGate** é uma plataforma de execução tecnológica orientada por planos, criada para reduzir a quantidade de trabalho humano necessária entre uma intenção de software e uma entrega validada.
+MagicGate é uma plataforma de execução tecnológica orientada por planos, criada para reduzir o trabalho operacional necessário entre uma intenção de software e uma entrega validada.
 
-Sua tese central é simples:
+Sua tese central é:
 
-> **A complexidade de um software não deveria exigir crescimento proporcional da equipe necessária para construí-lo, validá-lo e evoluí-lo.**
+> A complexidade de um software não deveria exigir crescimento proporcional da quantidade de trabalho humano necessária para construí-lo, validá-lo e evoluí-lo.
 
-O MagicGate não existe apenas para acelerar a escrita de código. Ele foi concebido para reduzir o custo operacional do ciclo de engenharia: interpretar planos, ordenar dependências, executar ações, testar, diagnosticar, retomar estados, medir produtividade, preservar evidências e avançar com segurança até os limites que exigem decisão humana.
+O MagicGate busca ampliar a capacidade operacional de profissionais e equipes de engenharia por meio de execução controlada, mensuração, evidências e governança.
+
+O profissional permanece responsável por objetivos, decisões, arquitetura, contexto, validação e julgamento humano.
 
 ---
 
-## Repositório público oficial
+## Sobre este repositório
 
-Este é o **repositório público oficial do MagicGate**.
+Este é o repositório público oficial do MagicGate.
 
-Ele existe como camada de comunicação, transparência e acompanhamento do projeto.
-
-Aqui são publicados somente materiais aprovados para divulgação, como:
+Seu objetivo é disponibilizar somente informações aprovadas para divulgação pública, incluindo:
 
 - visão e posicionamento do produto;
-- capacidades já disponibilizadas publicamente;
-- status do projeto;
+- capacidades anunciadas publicamente;
+- estado geral do projeto;
 - roadmap de alto nível;
-- métricas e benchmarks aprovados;
+- resultados de testes aprovados para divulgação;
+- métricas derivadas de testes efetivamente executados;
 - informações de releases;
-- atualizações institucionais.
+- atualizações institucionais;
+- informações comerciais aprovadas.
 
-### O código-fonte não está neste repositório
+Este repositório não é utilizado para disponibilização do código-fonte do produto.
 
-O código-fonte, infraestrutura interna, configurações operacionais, credenciais, segredos, estratégias internas e demais ativos proprietários do MagicGate permanecem em **repositório privado**.
-
-O fluxo de informação é unidirecional:
-
-```text
-MagicGate privado
-      │
-      │ conteúdo aprovado para divulgação
-      ▼
-Safety / Disclosure Gate
-      │
-      ▼
-magicgate-public
-```
-
-Nenhum conteúdo privado deve ser publicado automaticamente sem passar por validação de divulgação.
+Código, infraestrutura interna, configurações operacionais, credenciais, segredos, mecanismos proprietários, informações internas de implementação e demais ativos não públicos permanecem fora deste repositório.
 
 ---
 
-## A dor
+## O problema
 
-Software tornou-se infraestrutura da economia, mas construir software complexo continua sendo caro, lento e intensivo em horas humanas.
+Construir e evoluir software complexo continua consumindo grande quantidade de atenção humana.
 
-Entre uma ideia e um produto em produção existe uma cadeia extensa:
+Entre uma ideia e uma entrega real existem atividades de planejamento, implementação, testes, diagnóstico, validação, integração, operação e evolução.
 
-**Ideia → Requisitos → Planejamento → Arquitetura → Decomposição → Implementação → Testes → Diagnóstico → Correções → Validação → Integração → Entrega → Operação → Evolução**
+O custo de engenharia não está apenas na produção de código.
 
-O custo não está apenas no código. Ele está no volume de atenção humana consumido ao longo de toda essa cadeia.
+Ele também está no volume de trabalho humano necessário para transformar intenção em software funcional, validado e operacional.
 
-> **O problema econômico do desenvolvimento não é somente produzir código. É quantas horas humanas são necessárias para transformar intenção em software validado.**
-
----
-
-## A solução
-
-O MagicGate transforma um plano estruturado em um fluxo operacional controlado.
-
-A filosofia é:
-
-**definir → ordenar → executar → testar → diagnosticar → corrigir → validar → registrar → retomar → entregar**
-
-O profissional continua responsável por objetivos, decisões, arquitetura, contexto, validação e governança. O MagicGate busca absorver progressivamente o trabalho operacional que pode ser executado com segurança e evidência.
-
-Isso muda a função humana de **executor de cada microetapa** para **orquestrador de capacidade**.
+> O problema econômico do desenvolvimento de software não é apenas produzir código. É reduzir, com segurança, o trabalho humano necessário para produzir resultados tecnológicos verificáveis.
 
 ---
 
-## Estado atual
+## A proposta do MagicGate
+
+MagicGate transforma planos estruturados em fluxos operacionais controlados.
+
+Sua proposta é reduzir progressivamente o trabalho operacional repetitivo que pode ser executado com segurança, mantendo decisões críticas e julgamento sob responsabilidade humana.
+
+Em termos conceituais, o ciclo do produto envolve:
+
+**definir → executar → testar → validar → registrar → evoluir**
+
+A proposta é deslocar o profissional de executor permanente de microtarefas para supervisor e orquestrador de capacidade tecnológica.
+
+---
+
+## Estado público atual
 
 ### Baseline pública
 
 **MagicGate v0.2.7**
 
-A base atual já possui uma fundação operacional para transformar planos em execução determinística, auditável e mensurável.
+A baseline pública representa o estágio atualmente divulgado do produto.
 
-### Capacidades públicas da baseline
+Entre as capacidades públicas declaradas estão:
 
-- CLI standalone;
-- formato estruturado de planos;
-- ordenação determinística de tarefas;
-- executor deterministic-first;
-- ações controladas de arquivo e comando;
-- retomada de planos;
-- persistência de estado endurecida;
-- evidência obrigatória para conclusão;
-- SafetyPolicy;
-- CostGuard;
-- autenticação delegada sem custódia de credenciais pelo MagicGate;
-- MagicGate Metrics;
-- MGPI — MagicGate Productivity Index;
-- cenários humano-equivalentes estimados;
+- execução orientada por planos;
+- organização determinística de tarefas;
+- execução controlada;
+- retomada de atividades;
+- persistência de estado;
+- exigência de evidências para conclusão;
+- políticas de segurança;
+- controle de custo;
+- autenticação delegada;
+- métricas operacionais;
+- indicadores de produtividade;
+- registro de intervenção humana;
 - exportação estruturada de métricas;
-- runtime doctor;
-- pipeline de validação e release com evidência;
-- testes de regressão de segurança e estado.
+- diagnóstico de ambiente;
+- validação de releases;
+- testes de regressão relacionados a segurança e estado.
 
-### Em evolução ativa
+A descrição dessas capacidades é propositalmente apresentada em nível funcional e conceitual.
 
-- Remote Link;
-- execução remota controlada em ambientes autorizados;
-- ampliação da orquestração de workloads;
-- integração progressiva entre métricas, custo, segurança e disclosure;
-- publicação automatizada e sanitizada de status público;
-- expansão de benchmarks observados de produtividade.
-
-Funcionalidades marcadas como **em evolução ativa** não devem ser interpretadas como funcionalidades comerciais concluídas.
+Este repositório não documenta sua implementação interna.
 
 ---
 
-## Segurança por padrão
+## Em evolução
 
-O MagicGate foi projetado para preferir interrupção segura a execução ambígua.
+Entre as áreas publicamente anunciadas em evolução estão:
 
-Entre os princípios públicos da arquitetura estão:
+- execução remota controlada;
+- ampliação da orquestração de workloads;
+- integração entre métricas, custo e segurança;
+- ampliação das evidências operacionais;
+- publicação sanitizada de informações públicas;
+- expansão de benchmarks baseados em testes executados.
+
+Funcionalidades classificadas como em evolução não devem ser interpretadas como funcionalidades comerciais concluídas.
+
+---
+
+## Segurança e governança
+
+O MagicGate adota como princípio público a preferência por interrupção segura quando uma execução não pode ser validada adequadamente.
+
+Entre os princípios públicos do produto estão:
 
 - execução controlada;
-- política fail-closed;
+- comportamento seguro diante de ambiguidade;
 - proteção contra ações destrutivas;
-- proteção contra bypass de gates;
-- confinamento de operações ao contexto autorizado;
+- confinamento ao contexto autorizado;
 - bloqueio de material com aparência de segredo;
-- exigência de evidência verificável para conclusão;
+- exigência de evidência para conclusão;
 - separação entre automação e decisões que exigem julgamento humano;
 - divulgação pública somente após aprovação apropriada.
 
-> **Automação sem governança não é escala. É risco.**
+> Automação sem governança não representa escala sustentável.
 
 ---
 
-## MagicGate Metrics
+## Métricas
 
-O MagicGate mede sua própria operação para que produtividade seja demonstrada por evidência, não apenas por percepção.
+MagicGate foi concebido para medir sua própria operação.
 
-A telemetria pode registrar indicadores relacionados a:
+Entre os indicadores que podem ser observados estão:
 
 - duração de execução;
-- autonomia;
-- intervenção humana;
+- nível de autonomia;
+- necessidade de intervenção humana;
+- resultados de testes;
 - quality gates;
-- evidências de delivery;
 - retries;
+- evidências de entrega;
 - produtividade;
-- cenários humano-equivalentes;
-- custo operacional.
+- custo operacional;
+- horas humanas envolvidas em uma entrega.
 
-### MGPI — MagicGate Productivity Index
+### Regra de validação
 
-O **MGPI** é um indicador composto destinado a transformar produtividade, autonomia, qualidade e evidências disponíveis em uma leitura operacional consistente.
+Uma métrica somente pode ser classificada publicamente como **validada** quando for derivada de um teste efetivamente executado e possuir evidência suficiente para sustentar o resultado.
 
-> **O MagicGate deve provar eficiência com dados de execução, não apenas com discurso.**
+Portanto:
+
+**Teste executado + evidência observável = métrica validada**
+
+Estimativas, projeções, hipóteses, metas, cenários conceituais ou referências teóricas não são métricas validadas.
+
+Quando divulgados, esses números devem ser explicitamente identificados como:
+
+- hipótese;
+- meta;
+- estimativa;
+- referência conceitual;
+- cenário prospectivo.
+
+Essa separação é obrigatória.
 
 ---
 
-## Human Engineering Hours Saved — HEHS
+## MagicGate Productivity Index
 
-A métrica econômica central do MagicGate é a quantidade de **horas humanas de engenharia economizadas por unidade comparável de entrega**.
+O **MGPI, MagicGate Productivity Index**, é um indicador destinado a consolidar diferentes dimensões operacionais da execução.
 
-```text
-HEHS = (Horas baseline − Horas humanas observadas com MagicGate) / Horas baseline × 100
-```
+Seu objetivo é contribuir para uma leitura consistente de produtividade, autonomia, qualidade e evidências.
 
-Exemplo conceitual:
+Um valor de MGPI somente deverá ser apresentado como resultado validado quando seus dados de origem forem provenientes de execuções reais devidamente testadas e registradas.
 
-Uma entrega equivalente que historicamente demande 100 horas humanas e passe a demandar 40 horas humanas efetivas representa **60% de redução de horas humanas**.
+> Produtividade deve ser demonstrada por evidência, não apenas por percepção.
 
-O processamento computacional pode continuar acontecendo. O recurso liberado é atenção humana.
+---
 
-### Referência de potencial
+## Human Engineering Hours Saved
 
-As faixas abaixo representam **hipóteses e metas operacionais**, não garantias:
+O conceito **Human Engineering Hours Saved, HEHS**, representa a redução de horas humanas necessárias para executar uma unidade comparável de trabalho.
 
-| Ambiente | Potencial estimado de redução de horas humanas |
-|---|---:|
-| Legado complexo / baixa padronização | 20–40% |
-| Desenvolvimento moderno comum | 40–60% |
-| Projeto bem estruturado, testável e automatizável | 60–75% |
-| Fluxos altamente repetitivos ou determinísticos | 75–90%+ |
+Seu objetivo é permitir comparação entre uma baseline e uma execução observada.
 
-A referência central para workloads adequados e suficientemente estruturados é aproximadamente **60% de redução potencial de horas humanas**, equivalente conceitualmente a cerca de **2,5× de capacidade efetiva**.
+Resultados de HEHS somente podem ser considerados validados quando:
 
-Resultados reais dependem de arquitetura, complexidade, qualidade dos requisitos, legado, infraestrutura, segurança, regulamentação, nível de automação possível e necessidade de intervenção humana.
+- a baseline comparável estiver claramente definida;
+- a execução tiver ocorrido de fato;
+- as horas humanas forem observadas ou verificáveis;
+- as condições de comparação forem suficientemente equivalentes;
+- houver evidência da entrega resultante.
+
+Qualquer percentual não proveniente dessas condições deve ser tratado apenas como hipótese ou referência.
+
+---
+
+## Hipóteses de eficiência
+
+O MagicGate possui como tese econômica a possibilidade de reduzir significativamente o trabalho operacional humano em workloads adequados à automação controlada.
+
+Faixas ou percentuais prospectivos podem ser utilizados como hipóteses de produto, metas operacionais ou cenários de referência.
+
+Eles não constituem, por si só:
+
+- resultado comprovado;
+- benchmark validado;
+- garantia de produtividade;
+- garantia de economia;
+- compromisso comercial.
+
+Resultados reais dependem de fatores como complexidade, arquitetura, qualidade dos requisitos, infraestrutura, legado, segurança, regulamentação e necessidade de intervenção humana.
 
 ---
 
@@ -202,161 +226,141 @@ O MagicGate possui duas propostas econômicas complementares.
 
 ### Eficiência
 
-Manter capacidade semelhante utilizando menos horas humanas.
+Reduzir o trabalho operacional necessário para entregar determinada capacidade tecnológica.
 
-**Resultado esperado: redução do custo operacional de engenharia.**
+O objetivo é melhorar a eficiência do ciclo de engenharia.
 
-### Crescimento
+### Expansão de capacidade
 
-Manter a estrutura humana e utilizar a capacidade adicional para executar mais projetos.
+Utilizar a capacidade operacional adicional para executar mais trabalho com a mesma estrutura humana.
 
-**Resultado esperado: expansão da capacidade de engenharia.**
+O objetivo é aumentar a capacidade efetiva de engenharia.
 
-O MagicGate não é apenas uma tese de redução de custo. É uma tese de **operational leverage**.
+MagicGate representa, portanto, uma tese de eficiência operacional e alavancagem tecnológica.
 
 ---
 
 ## Modelo comercial de referência
 
-O modelo comercial de referência atual considera SaaS empresarial recorrente:
+O modelo comercial atualmente divulgado considera uma estrutura SaaS empresarial recorrente:
 
-- **Enterprise:** US$ 2.500/mês por organização;
-- **Usuário autorizado:** US$ 300/mês por usuário.
+| Modalidade | Referência |
+|---|---:|
+| Enterprise | US$ 2.500/mês por organização |
+| Usuário autorizado | US$ 300/mês por usuário |
 
-```text
-MRR = US$ 2.500 + (US$ 300 × usuários)
-```
+Esses valores representam referências comerciais atuais e podem evoluir conforme produto, mercado e validação comercial avancem.
 
-Esses valores representam o modelo comercial de referência atual e podem evoluir conforme produto, mercado e validação comercial avancem.
+Não constituem previsão de receita ou valuation.
 
 ---
 
 ## Roadmap público
 
-O roadmap público apresenta direção de produto em alto nível e não expõe implementação interna.
+O roadmap público apresenta apenas a direção geral do produto.
 
-### Fase 1 — Fundação de execução
+### Fundação de execução
 
 **Status: baseline estabelecida**
 
-- execução orientada por planos;
-- deterministic-first;
-- estado persistente;
-- retomada;
-- evidências;
-- SafetyPolicy;
-- CostGuard;
-- runtime doctor;
-- release com gates.
+Foco em execução orientada por planos, controle operacional, persistência, retomada, evidências, segurança, controle de custo e validação.
 
-### Fase 2 — Mensuração
+### Mensuração
 
 **Status: operacional e em expansão**
 
-- MagicGate Metrics;
-- MGPI;
-- autonomia;
-- qualidade;
-- tempo de execução;
-- intervenção humana;
-- humano-equivalente;
-- HEHS;
-- exportação de métricas;
-- relatórios mensuráveis de produtividade.
+Foco em métricas de execução, produtividade, autonomia, qualidade, tempo, intervenção humana, custo e evidências.
 
-### Fase 3 — Operação remota controlada
+### Operação remota controlada
 
 **Status: desenvolvimento ativo**
 
-- Remote Link;
-- execução remota autorizada;
-- controle de ambientes;
-- isolamento entre execução e transporte;
-- segurança fail-closed;
-- ampliação das evidências operacionais.
+Foco em execução autorizada em ambientes remotos, isolamento operacional, segurança e ampliação das evidências.
 
-### Fase 4 — Orquestração e escala
+### Orquestração e escala
 
 **Status: evolução planejada**
 
-- orquestração de workloads mais amplos;
-- integração de providers;
-- coordenação entre execução, métricas, custo e segurança;
-- automação de publicação de status aprovado;
-- benchmarking crescente baseado em execuções reais.
+Foco em workloads mais amplos, integração de provedores, coordenação entre execução, métricas, custo e segurança e ampliação de benchmarks observados.
 
-### Fase 5 — Escala empresarial
+### Escala empresarial
 
 **Status: direção estratégica**
 
-- governança ampliada;
-- controles organizacionais;
-- métricas consolidadas por equipe e organização;
-- evidências de ROI operacional;
-- expansão de integrações empresariais;
-- maior capacidade de execução distribuída e auditável.
+Foco em governança organizacional, controles empresariais, métricas consolidadas, evidências de retorno operacional e expansão de integrações.
 
 ---
 
-## Política de publicação deste repositório
+## Política de divulgação pública
 
 Este repositório deve permanecer deliberadamente pequeno.
 
-A regra é:
+Somente informações aprovadas para divulgação devem fazer parte dele.
 
-```text
-PUBLIC = documentação aprovada + status aprovado + métricas aprovadas
-PRIVATE = código + infraestrutura + segredos + configuração + estratégia interna
-```
+Podem ser publicados:
 
-Antes de qualquer publicação automática, o conteúdo deve passar por verificações para impedir exposição de:
+- documentação conceitual;
+- posicionamento;
+- status aprovado;
+- roadmap de alto nível;
+- resultados de testes autorizados;
+- métricas validadas por testes executados;
+- informações comerciais aprovadas;
+- atualizações institucionais.
 
+Não devem ser publicados:
+
+- código-fonte proprietário;
 - credenciais;
 - chaves;
 - tokens;
-- dados financeiros sensíveis;
-- código proprietário;
+- segredos;
 - configurações internas;
+- infraestrutura privada;
 - logs sensíveis;
-- caminhos ou identificadores internos desnecessários;
-- informações pessoais;
-- estratégias não autorizadas para divulgação.
+- informações pessoais não autorizadas;
+- dados financeiros confidenciais;
+- mecanismos internos de implementação;
+- informações que permitam reconstrução indevida de ativos proprietários;
+- estratégias internas não aprovadas.
+
+Nenhum material privado deve ser publicado automaticamente sem validação prévia de divulgação.
 
 ---
 
 ## Para investidores e parceiros estratégicos
 
-O MagicGate está sendo construído na interseção entre:
+MagicGate está sendo desenvolvido na interseção entre:
 
-**engenharia de software × automação determinística × execução controlada × produtividade mensurável × eficiência de capital × escala empresarial**
+**engenharia de software × automação controlada × produtividade mensurável × eficiência operacional × governança × escala empresarial**
 
-A ambição não é apenas acelerar tarefas.
+Sua ambição é reduzir de forma mensurável o trabalho operacional necessário para transformar intenção em tecnologia.
 
-É reduzir de maneira mensurável o trabalho operacional necessário para transformar intenção em tecnologia.
+A proposta é gerar:
 
-### Nossa ambição
+**menos trabalho operacional;**
 
-**Menos trabalho operacional.**
+**mais capacidade por profissional;**
 
-**Mais inteligência humana onde ela importa.**
+**mais capacidade por equipe;**
 
-**Mais software por hora.**
+**mais evidência sobre produtividade;**
 
-**Mais produto por equipe.**
-
-**Mais inovação por dólar investido.**
+**mais eficiência por unidade de investimento.**
 
 ---
 
 ## Nota metodológica
 
-As faixas de redução de horas humanas apresentadas neste documento são hipóteses e metas operacionais, não garantias de produtividade, economia ou redução de quadro.
+Qualquer resultado quantitativo divulgado pelo MagicGate deve ser classificado de acordo com a origem da evidência.
 
-A meta de aproximadamente **60% de redução potencial de horas humanas** representa uma referência para workloads compatíveis, estruturados e automatizáveis.
+Resultados provenientes de testes executados podem ser apresentados como métricas observadas ou validadas quando houver evidência adequada.
 
-O MagicGate utiliza telemetria e métricas para substituir progressivamente estimativas por evidências reais de execução.
+Números não provenientes de testes executados devem ser identificados como hipóteses, metas, estimativas ou referências conceituais.
 
-Os valores comerciais apresentados representam referências atuais e não constituem previsão de receita, aquisição de clientes ou valuation.
+Nenhum número prospectivo deve ser apresentado como resultado comprovado.
+
+O objetivo do MagicGate é substituir progressivamente hipóteses por evidências provenientes de execuções reais.
 
 ---
 
@@ -364,9 +368,8 @@ Os valores comerciais apresentados representam referências atuais e não consti
 
 ## Plan. Execute. Measure. Scale.
 
-> **O futuro da engenharia não será definido apenas por quantas pessoas uma empresa consegue contratar. Será definido por quanta capacidade cada pessoa consegue colocar em movimento.**
+> O futuro da engenharia não será definido apenas pela quantidade de pessoas disponíveis, mas pela capacidade tecnológica que cada profissional consegue colocar em movimento.
 
----
+**Repositório público:** `arkhe-aio-valley/magicgate-public`
 
-**Public repository:** `arkhe-aio-valley/magicgate-public`  
-**Source code:** private by design
+**Código-fonte:** privado por design.
