@@ -364,6 +364,23 @@ O objetivo do MagicGate é substituir progressivamente hipóteses por evidência
 
 ---
 
+## Documentos públicos
+
+A governança deste repositório é complementada pelos seguintes documentos:
+
+- [Licença pública](LICENSE.md)
+- [Política de segurança](SECURITY.md)
+- [Política de divulgação pública](DISCLOSURE_POLICY.md)
+- [Política de validação de métricas](METRICS_VALIDATION_POLICY.md)
+- [Governança do repositório](GOVERNANCE.md)
+- [Diretrizes de contribuição](CONTRIBUTING.md)
+- [Código de conduta](CODE_OF_CONDUCT.md)
+- [Suporte e perguntas públicas](SUPPORT.md)
+
+Esses documentos definem a fronteira entre informação pública deliberada e ativos privados do MagicGate.
+
+---
+
 # MAGICGATE
 
 ## Plan. Execute. Measure. Scale.
