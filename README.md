@@ -3,7 +3,7 @@
 **Da intenção à execução. Da execução à evidência. Da evidência à escala.**
 
 > **Release atual: MagicGate v0.3.0**  
-> **Oferta de lançamento no Brasil: 10 dias grátis, depois R$ 19/mês para continuar.**  
+> **Oferta de lançamento no Brasil: 10 dias grátis, depois US$ 19/mês para continuar.**  
 > **Domínio oficial: `magicgate.dev`**
 
 ## Visão
@@ -191,7 +191,7 @@ A oferta inicial do MagicGate para o mercado brasileiro é:
 | Item | Oferta |
 |---|---:|
 | Período de avaliação | **10 dias grátis** |
-| Assinatura após o período gratuito | **R$ 19/mês** |
+| Assinatura após o período gratuito | **US$ 19/mês** |
 | Renovação | mensal |
 | Continuidade após o trial | assinatura necessária |
 
@@ -391,5 +391,5 @@ Documentos complementares:
 
 **Domínio:** `magicgate.dev`  
 **Release:** `v0.3.0`  
-**Oferta de lançamento:** 10 dias grátis, depois R$ 19/mês  
+**Oferta de lançamento:** 10 dias grátis, depois US$ 19/mês  
 **Código-fonte:** privado por design.
