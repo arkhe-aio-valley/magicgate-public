@@ -1,51 +1,53 @@
-# Public Disclosure Policy
+# Política de Divulgação Pública
 
-## Objective
+🌐 **Idioma:** [Português](DISCLOSURE_POLICY.md) | [English](DISCLOSURE_POLICY.en.md)
 
-The purpose of this repository is to publish only information deliberately approved for public disclosure.
+## Objetivo
 
-## Public information
+O objetivo deste repositório é publicar somente informações deliberadamente aprovadas para divulgação pública.
 
-Examples of information that may be published after review include:
+## Informações públicas
 
-- product vision and positioning;
-- public capabilities;
-- high-level roadmap;
-- release information;
-- approved commercial references;
-- results from executed tests that are approved for publication;
-- metrics derived from executed tests with sufficient evidence;
-- institutional updates.
+Exemplos de informações que podem ser publicadas após revisão incluem:
 
-## Non-public information
+- visão e posicionamento do produto;
+- capacidades públicas;
+- roadmap de alto nível;
+- informações de release;
+- referências comerciais aprovadas;
+- resultados de testes executados e aprovados para publicação;
+- métricas derivadas de testes executados com evidência suficiente;
+- atualizações institucionais.
 
-The following must remain private unless explicitly approved under a separate disclosure decision:
+## Informações não públicas
 
-- source code and proprietary implementation;
-- internal architecture details that enable reconstruction;
-- credentials, keys, tokens, secrets, and access material;
-- private infrastructure and operational configuration;
-- internal prompts, methods, strategies, and unpublished procedures;
-- sensitive logs, internal identifiers, private datasets, and personal information;
-- non-public financial or commercial information;
-- security details whose publication would create material risk.
+Os itens abaixo devem permanecer privados, salvo aprovação explícita em decisão separada de divulgação:
 
-## Validation gate
+- código-fonte e implementação proprietária;
+- detalhes de arquitetura interna que permitam reconstrução;
+- credenciais, chaves, tokens, segredos e materiais de acesso;
+- infraestrutura privada e configuração operacional;
+- prompts internos, métodos, estratégias e procedimentos não publicados;
+- logs sensíveis, identificadores internos, datasets privados e informações pessoais;
+- informações financeiras ou comerciais não públicas;
+- detalhes de segurança cuja publicação crie risco material.
 
-Before publication, content should be checked for:
+## Gate de validação
 
-1. disclosure authorization;
-2. sensitive information;
-3. proprietary implementation leakage;
-4. credential or secret exposure;
-5. unnecessary internal identifiers;
-6. misleading claims;
-7. proper classification of metrics as validated, observed, estimated, hypothetical, targeted, or projected.
+Antes da publicação, o conteúdo deve ser verificado quanto a:
 
-## Default decision
+1. autorização de divulgação;
+2. informações sensíveis;
+3. vazamento de implementação proprietária;
+4. exposição de credenciais ou segredos;
+5. identificadores internos desnecessários;
+6. afirmações enganosas;
+7. classificação adequada das métricas como validadas, observadas, estimadas, hipotéticas, metas ou projeções.
 
-When classification is uncertain, the content should remain unpublished until reviewed.
+## Decisão padrão
 
-## Public repository principle
+Quando a classificação for incerta, o conteúdo deve permanecer não publicado até revisão.
 
-Publication in this repository is intentional disclosure of the specific material published. It does not imply disclosure, licensing, or authorization concerning any non-public MagicGate asset.
+## Princípio do repositório público
+
+A publicação neste repositório é divulgação intencional apenas do material específico publicado. Ela não implica divulgação, licenciamento ou autorização sobre qualquer ativo não público do MagicGate.

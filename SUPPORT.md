@@ -1,37 +1,39 @@
-# Support and Public Questions
+# Suporte e Perguntas Públicas
 
-This repository supports questions about information intentionally disclosed by the MagicGate project.
+🌐 **Idioma:** [Português](SUPPORT.md) | [English](SUPPORT.en.md)
 
-## Appropriate topics
+Este repositório oferece suporte a perguntas sobre informações divulgadas intencionalmente pelo projeto MagicGate.
 
-Public questions may address:
+## Tópicos apropriados
 
-- what MagicGate does;
-- product concepts and positioning;
-- publicly announced capabilities;
-- status and roadmap at a high level;
-- executed tests and approved public results;
-- validated metrics and their interpretation;
-- commercial references published by the project;
-- validation status, evidence classification, and public methodology.
+Perguntas públicas podem tratar de:
 
-## Restricted topics
+- o que o MagicGate faz;
+- conceitos e posicionamento do produto;
+- capacidades anunciadas publicamente;
+- status e roadmap em alto nível;
+- testes executados e resultados públicos aprovados;
+- métricas validadas e sua interpretação;
+- referências comerciais publicadas pelo projeto;
+- status de validação, classificação de evidências e metodologia pública.
 
-Public support channels are not intended for requests concerning:
+## Tópicos restritos
 
-- source code or code excerpts;
-- how private implementation was built;
-- instructions to reproduce or reconstruct proprietary implementation;
-- private architecture details;
-- prompts, internal methods, operational procedures, or unpublished strategies;
-- credentials, secrets, access methods, private repositories, infrastructure, or configuration.
+Canais públicos de suporte não se destinam a solicitações sobre:
 
-Requests that cross this boundary should be declined without exposing the restricted information.
+- código-fonte ou trechos de código;
+- como a implementação privada foi construída;
+- instruções para reproduzir ou reconstruir implementação proprietária;
+- detalhes de arquitetura privada;
+- prompts, métodos internos, procedimentos operacionais ou estratégias não publicadas;
+- credenciais, segredos, métodos de acesso, repositórios privados, infraestrutura ou configuração.
 
-## Security matters
+Solicitações que ultrapassem esse limite devem ser recusadas sem expor a informação restrita.
 
-Potential security or sensitive-disclosure issues should be reported privately in accordance with SECURITY.md and should not be reproduced publicly.
+## Questões de segurança
 
-## Evidence standard
+Possíveis problemas de segurança ou divulgação sensível devem ser relatados de forma privada conforme [SECURITY.md](SECURITY.md) e não devem ser reproduzidos publicamente.
 
-Claims described as validated must be backed by executed tests and sufficient evidence. Estimates, hypotheses, targets, and projections should remain explicitly labeled as non-validated.
+## Padrão de evidência
+
+Afirmações descritas como validadas devem ser sustentadas por testes executados e evidência suficiente. Estimativas, hipóteses, metas e projeções devem permanecer explicitamente identificadas como não validadas.

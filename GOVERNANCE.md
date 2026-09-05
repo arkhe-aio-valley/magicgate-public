@@ -1,34 +1,37 @@
-# Public Repository Governance
+# Governança do Repositório Público
 
-## Purpose
+🌐 **Idioma:** [Português](GOVERNANCE.md) | [English](GOVERNANCE.en.md)
 
-This repository is the public information surface for MagicGate. Its role is communication, transparency, approved evidence, and public project governance.
+## Objetivo
 
-## Maintainer authority
+Este repositório é a superfície pública de informações do MagicGate. Sua função é comunicação, transparência, evidências aprovadas e governança pública do projeto.
 
-The project owner and designated maintainers control what may be published, corrected, reclassified, or removed from this repository.
+## Autoridade dos mantenedores
 
-## Publication standard
+O proprietário do projeto e os mantenedores designados controlam o que pode ser publicado, corrigido, reclassificado ou removido deste repositório.
 
-Public material should satisfy all of the following:
+## Padrão de publicação
 
-- it is intentionally approved for disclosure;
-- it does not expose source code, credentials, secrets, private infrastructure, or proprietary implementation details;
-- quantitative claims are accurately classified;
-- validated metrics are supported by executed tests and evidence;
-- roadmap and future-facing statements are clearly distinguished from completed capabilities;
-- commercial references are not presented as guaranteed revenue, valuation, or market outcome.
+Material público deve atender a todos os requisitos abaixo:
 
-## Change process
+- estar intencionalmente aprovado para divulgação;
+- não expor código-fonte, credenciais, segredos, infraestrutura privada ou detalhes proprietários de implementação;
+- classificar afirmações quantitativas corretamente;
+- sustentar métricas validadas com testes executados e evidências;
+- distinguir claramente roadmap e declarações futuras de capacidades já concluídas;
+- não apresentar referências comerciais como receita, valuation ou resultado de mercado garantido;
+- manter paridade semântica entre as versões PT-BR e EN da documentação pública.
 
-Material changes to public policy, validated metrics, product status, or disclosure boundaries should be made through a reviewable repository change, preferably using a pull request.
+## Processo de mudança
 
-## Corrections
+Mudanças relevantes em políticas públicas, métricas validadas, status do produto, limites de divulgação ou conteúdo bilíngue devem ser feitas por alteração revisável no repositório, preferencialmente via pull request.
 
-If public information becomes inaccurate, misleading, unsupported, or unsafe to disclose, maintainers may correct, reclassify, redact, or remove it.
+## Correções
 
-## Private/public boundary
+Se uma informação pública se tornar imprecisa, enganosa, sem suporte ou insegura para divulgação, os mantenedores podem corrigi-la, reclassificá-la, redigi-la ou removê-la.
 
-The public repository must remain operationally separate from private MagicGate implementation assets.
+## Limite privado/público
 
-Public access to this repository does not grant access to private repositories, systems, environments, source code, credentials, or internal project history.
+O repositório público deve permanecer operacionalmente separado dos ativos privados de implementação do MagicGate.
+
+O acesso público a este repositório não concede acesso a repositórios privados, sistemas, ambientes, código-fonte, credenciais ou histórico interno do projeto.

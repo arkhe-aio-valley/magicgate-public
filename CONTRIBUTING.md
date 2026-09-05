@@ -1,38 +1,40 @@
-# Contributing
+# Contribuindo
 
-MagicGate is not accepting public contributions to private implementation through this repository.
+🌐 **Idioma:** [Português](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md)
 
-This repository is intended for public documentation, approved project information, validated public metrics, release information, and other materials explicitly cleared for disclosure.
+O MagicGate não aceita, por este repositório, contribuições públicas para sua implementação privada.
 
-## Appropriate contributions
+Este repositório destina-se à documentação pública, informações aprovadas do projeto, métricas públicas validadas, informações de release e outros materiais explicitamente liberados para divulgação.
 
-Public contributions may be considered when they concern:
+## Contribuições apropriadas
 
-- documentation clarity;
-- factual corrections to public material;
-- broken links;
-- typographical or formatting issues;
-- suggestions about public terminology;
-- questions about published concepts, metrics, validation status, or product positioning.
+Contribuições públicas podem ser consideradas quando tratam de:
 
-## Not appropriate for this repository
+- clareza da documentação;
+- correções factuais em material público;
+- links quebrados;
+- erros tipográficos ou de formatação;
+- sugestões sobre terminologia pública;
+- perguntas sobre conceitos, métricas, status de validação ou posicionamento do produto já publicados.
 
-Do not submit or request:
+## Não apropriado para este repositório
 
-- private or proprietary source code;
-- implementation details;
-- reverse-engineering guidance;
-- credentials, keys, tokens, secrets, or private identifiers;
-- internal infrastructure or configuration;
-- unpublished prompts, methods, architecture, or operational procedures;
-- sensitive logs or private datasets.
+Não envie nem solicite:
 
-## Metrics and validation
+- código-fonte privado ou proprietário;
+- detalhes de implementação;
+- orientação de engenharia reversa;
+- credenciais, chaves, tokens, segredos ou identificadores privados;
+- infraestrutura ou configuração interna;
+- prompts, métodos, arquitetura ou procedimentos operacionais não publicados;
+- logs sensíveis ou datasets privados.
 
-A quantitative claim may be described as validated only when it originates from an executed test with sufficient supporting evidence.
+## Métricas e validação
 
-Hypotheses, estimates, targets, scenarios, and projections must remain clearly labeled as such.
+Uma afirmação quantitativa só pode ser descrita como validada quando se origina de um teste executado com evidência suficiente de suporte.
 
-## Disclosure review
+Hipóteses, estimativas, metas, cenários e projeções devem permanecer claramente identificados como tal.
 
-All accepted changes remain subject to public-disclosure review. If there is uncertainty about whether information is safe to publish, publication should be withheld until reviewed.
+## Revisão de divulgação
+
+Toda mudança aceita continua sujeita à revisão de divulgação pública. Se houver dúvida sobre a segurança da publicação de uma informação, a publicação deve ser retida até a revisão.

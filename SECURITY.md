@@ -1,25 +1,27 @@
-# Security Policy
+# Política de Segurança
 
-## Scope
+🌐 **Idioma:** [Português](SECURITY.md) | [English](SECURITY.en.md)
 
-This public repository contains only materials approved for public disclosure. It must not contain private source code, credentials, secrets, internal infrastructure, sensitive logs, private configuration, personal data, or other non-public MagicGate assets.
+## Escopo
 
-## Reporting a security concern
+Este repositório público contém somente materiais aprovados para divulgação pública. Ele não deve conter código-fonte privado, credenciais, segredos, infraestrutura interna, logs sensíveis, configuração privada, dados pessoais ou outros ativos não públicos do MagicGate.
 
-If you believe public MagicGate materials expose sensitive information, create a minimal report through an official private communication channel operated by the project owner.
+## Relatando uma preocupação de segurança
 
-Do not publish suspected credentials, secrets, exploit details, private identifiers, or sensitive reproductions in a public issue, pull request, discussion, or comment.
+Se você acredita que materiais públicos do MagicGate expõem informações sensíveis, envie um relato mínimo por um canal oficial e privado operado pelo proprietário do projeto.
 
-A useful report should describe the category of risk, the affected public artifact, and the potential impact without reproducing sensitive material unnecessarily.
+Não publique possíveis credenciais, segredos, detalhes de exploração, identificadores privados ou reproduções sensíveis em issue, pull request, discussão ou comentário público.
 
-## Disclosure rule
+Um relato útil deve descrever a categoria do risco, o artefato público afetado e o impacto potencial sem reproduzir material sensível desnecessariamente.
 
-Security-related information may be made public only after review and explicit approval for disclosure.
+## Regra de divulgação
 
-## Repository boundary
+Informações relacionadas a segurança só podem ser tornadas públicas após revisão e aprovação explícita para divulgação.
 
-This repository is not an authorization surface for testing private MagicGate systems, accessing non-public environments, probing internal infrastructure, or attempting to obtain unpublished implementation details.
+## Limite do repositório
 
-## Safe-default principle
+Este repositório não constitui autorização para testar sistemas privados do MagicGate, acessar ambientes não públicos, sondar infraestrutura interna ou tentar obter detalhes de implementação não publicados.
 
-When disclosure status is uncertain, the default is to withhold publication until the material has been reviewed.
+## Princípio de padrão seguro
+
+Quando o status de divulgação for incerto, o padrão é reter a publicação até que o material tenha sido revisado.
