@@ -1,33 +1,35 @@
-# Code of Conduct
+# Código de Conduta
 
-## Purpose
+🌐 **Idioma:** [Português](CODE_OF_CONDUCT.md) | [English](CODE_OF_CONDUCT.en.md)
 
-Public interaction around MagicGate should remain professional, respectful, technically grounded, and safe for participants.
+## Objetivo
 
-## Expected behavior
+A interação pública em torno do MagicGate deve permanecer profissional, respeitosa, tecnicamente fundamentada e segura para os participantes.
 
-Participants should:
+## Comportamento esperado
 
-- communicate respectfully and constructively;
-- distinguish evidence from opinion, hypothesis, projection, or speculation;
-- avoid publishing sensitive or private information;
-- respect intellectual property and confidentiality boundaries;
-- keep discussions relevant to publicly disclosed MagicGate concepts, capabilities, metrics, validation, releases, roadmap, and product positioning;
-- report concerns without unnecessarily reproducing sensitive material.
+Os participantes devem:
 
-## Unacceptable behavior
+- comunicar-se de forma respeitosa e construtiva;
+- distinguir evidência de opinião, hipótese, projeção ou especulação;
+- evitar publicar informações sensíveis ou privadas;
+- respeitar propriedade intelectual e limites de confidencialidade;
+- manter as discussões relevantes aos conceitos, capacidades, métricas, validações, releases, roadmap e posicionamento do MagicGate já divulgados publicamente;
+- relatar preocupações sem reproduzir material sensível desnecessariamente.
 
-The following is not acceptable:
+## Comportamento inaceitável
 
-- harassment, intimidation, threats, discrimination, or targeted abuse;
-- doxxing or publication of personal or confidential information;
-- publication or solicitation of credentials, secrets, private source code, internal configuration, or proprietary implementation details;
-- attempts to use public project channels to obtain non-public MagicGate assets;
-- knowingly presenting estimates or hypotheses as validated results;
-- impersonation or claims of affiliation not authorized by the project owner.
+Não são aceitáveis:
 
-## Enforcement
+- assédio, intimidação, ameaças, discriminação ou abuso direcionado;
+- doxxing ou publicação de informações pessoais ou confidenciais;
+- publicação ou solicitação de credenciais, segredos, código-fonte privado, configurações internas ou detalhes proprietários de implementação;
+- tentativas de usar canais públicos do projeto para obter ativos não públicos do MagicGate;
+- apresentar conscientemente estimativas ou hipóteses como resultados validados;
+- personificação ou alegações de vínculo não autorizado pelo proprietário do projeto.
 
-Project maintainers may edit, hide, close, reject, or remove public content that violates these rules or creates disclosure, security, legal, or safety risk.
+## Aplicação
 
-Participation in this repository does not create any right of access to private MagicGate systems, source code, infrastructure, or internal information.
+Os mantenedores do projeto podem editar, ocultar, encerrar, rejeitar ou remover conteúdo público que viole estas regras ou crie risco de divulgação, segurança, jurídico ou de proteção aos participantes.
+
+A participação neste repositório não cria qualquer direito de acesso a sistemas privados, código-fonte, infraestrutura ou informações internas do MagicGate.

@@ -1,46 +1,48 @@
-# Metrics Validation Policy
+# Política de Validação de Métricas
 
-## Principle
+🌐 **Idioma:** [Português](METRICS_VALIDATION_POLICY.md) | [English](METRICS_VALIDATION_POLICY.en.md)
 
-Only metrics derived from tests that were actually executed may be presented as validated MagicGate metrics.
+## Princípio
 
-## Validated metric
+Somente métricas derivadas de testes efetivamente executados podem ser apresentadas como métricas validadas do MagicGate.
 
-A metric may be labeled as validated only when all of the following are true:
+## Métrica validada
 
-- the test was executed;
-- the measured subject and test conditions are identified sufficiently for interpretation;
-- the relevant evidence was captured;
-- the result can be traced to that executed test;
-- the comparison method, when applicable, is defined;
-- the result was approved for public disclosure.
+Uma métrica só pode ser classificada como validada quando todas as condições abaixo forem verdadeiras:
 
-## Non-validated quantitative information
+- o teste foi executado;
+- o objeto medido e as condições do teste estão identificados em nível suficiente para interpretação;
+- a evidência relevante foi capturada;
+- o resultado pode ser rastreado até o teste executado;
+- o método de comparação, quando aplicável, está definido;
+- o resultado foi aprovado para divulgação pública.
 
-The following are not validated metrics unless and until supported by an executed test:
+## Informação quantitativa não validada
 
-- estimates;
-- hypotheses;
-- targets;
-- projections;
-- modeled scenarios;
-- conceptual examples;
-- expected ranges;
-- theoretical benchmarks;
-- extrapolations.
+Os itens abaixo não são métricas validadas até que sejam sustentados por um teste executado:
 
-These may be published only when clearly labeled according to their actual status.
+- estimativas;
+- hipóteses;
+- metas;
+- projeções;
+- cenários modelados;
+- exemplos conceituais;
+- faixas esperadas;
+- benchmarks teóricos;
+- extrapolações.
 
-## Comparative metrics
+Eles só podem ser publicados quando claramente identificados conforme seu status real.
 
-Comparative claims should identify a meaningful baseline and preserve sufficient comparability between the baseline and the observed execution.
+## Métricas comparativas
 
-## Evidence
+Afirmações comparativas devem identificar uma baseline significativa e preservar comparabilidade suficiente entre a baseline e a execução observada.
 
-Evidence may include test outputs, timestamps, execution records, validated observations, quality-gate results, delivery evidence, or other records appropriate to the claim.
+## Evidência
 
-The public repository does not need to expose private implementation details in order to validate a metric. Public evidence should be limited to what is necessary to substantiate the claim without disclosing proprietary or sensitive material.
+A evidência pode incluir saídas de testes, timestamps, registros de execução, observações validadas, resultados de quality gates, evidências de entrega ou outros registros apropriados à afirmação.
 
-## Revision and correction
+O repositório público não precisa expor detalhes privados de implementação para validar uma métrica. Evidências públicas devem se limitar ao necessário para sustentar a afirmação sem divulgar material proprietário ou sensível.
 
-If a published metric is later found to be unsupported, misleading, incorrectly classified, or based on invalid evidence, it should be corrected, reclassified, or withdrawn.
+## Revisão e correção
+
+Se uma métrica publicada for posteriormente considerada sem suporte, enganosa, classificada incorretamente ou baseada em evidência inválida, ela deve ser corrigida, reclassificada ou retirada.

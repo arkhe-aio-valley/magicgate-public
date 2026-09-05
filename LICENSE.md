@@ -1,23 +1,27 @@
-# MagicGate Public Documentation License
+# Licença da Documentação Pública do MagicGate
 
-Copyright © 2026 Arkhe AIO Valley. All rights reserved.
+🌐 **Idioma:** [Português](LICENSE.md) | [English](LICENSE.en.md)
 
-This repository is published for public information, evaluation, transparency, and project communication.
+Copyright © 2026 Arkhe AIO Valley. Todos os direitos reservados.
 
-Permission is granted to view, reference, and link to the materials in this repository for lawful informational and evaluative purposes.
+Este repositório é publicado para informação pública, avaliação, transparência e comunicação do projeto.
 
-Unless expressly authorized in writing, this publication does not grant permission to:
+É concedida permissão para visualizar, referenciar e criar links para os materiais deste repositório para fins legais de informação e avaliação.
 
-- copy or redistribute substantial portions of the materials as a competing publication;
-- use the MagicGate name, trademarks, branding, or identity in a manner that implies endorsement, affiliation, or ownership;
-- claim authorship or ownership of MagicGate materials;
-- use this repository as authorization to access, reproduce, derive, reconstruct, reverse engineer, or obtain non-public MagicGate technology;
-- use any public description as a license to private source code, infrastructure, configuration, models, prompts, credentials, trade secrets, internal methods, or other proprietary assets.
+Salvo autorização expressa por escrito, esta publicação não concede permissão para:
 
-No license to any patent, trademark, trade secret, private source code, or other unpublished intellectual property is granted by this repository.
+- copiar ou redistribuir partes substanciais dos materiais como publicação concorrente;
+- usar o nome MagicGate, marcas, identidade visual ou identidade do projeto de forma que implique endosso, vínculo ou propriedade;
+- reivindicar autoria ou propriedade dos materiais do MagicGate;
+- usar este repositório como autorização para acessar, reproduzir, derivar, reconstruir, realizar engenharia reversa ou obter tecnologia não pública do MagicGate;
+- usar qualquer descrição pública como licença para código-fonte privado, infraestrutura, configuração, modelos, prompts, credenciais, segredos comerciais, métodos internos ou outros ativos proprietários.
 
-Materials are provided for informational purposes and may change without notice. Public statements about product capabilities, roadmap, pricing, metrics, or future direction are subject to the qualifications stated in the relevant documents.
+Nenhuma licença sobre patente, marca, segredo comercial, código-fonte privado ou outra propriedade intelectual não publicada é concedida por este repositório.
 
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+Os materiais são fornecidos para fins informativos e podem ser alterados sem aviso prévio. Declarações públicas sobre capacidades do produto, roadmap, preço, métricas ou direção futura estão sujeitas às qualificações declaradas nos documentos relevantes.
 
-For permissions beyond this license, contact the project owner through an official MagicGate or Arkhe AIO Valley channel.
+OS MATERIAIS SÃO FORNECIDOS "NO ESTADO EM QUE SE ENCONTRAM", SEM GARANTIA DE QUALQUER NATUREZA, EXPRESSA OU IMPLÍCITA, NA MÁXIMA EXTENSÃO PERMITIDA POR LEI.
+
+Para permissões além desta licença, entre em contato com o proprietário do projeto por um canal oficial do MagicGate ou Arkhe AIO Valley.
+
+As versões PT-BR e EN são mantidas com intenção de equivalência. Se surgir divergência material, ela deve ser corrigida por revisão de documentação e não deve ser interpretada como autorização adicional.

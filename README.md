@@ -1,9 +1,11 @@
 # MAGICGATE
 
+🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
+
 **Da intenção à execução. Da execução à evidência. Da evidência à escala.**
 
 > **Release atual: MagicGate v0.3.0**  
-> **Oferta de lançamento no Brasil: 10 dias grátis, depois US$ 19/mês para continuar.**  
+> **Oferta de lançamento: 10 dias grátis, depois US$ 19/mês para continuar.**  
 > **Domínio oficial: `magicgate.dev`**
 
 ## Visão
@@ -186,7 +188,7 @@ MagicGate representa, portanto, uma tese de eficiência operacional e alavancage
 
 ## Oferta de lançamento
 
-A oferta inicial do MagicGate para o mercado brasileiro é:
+A oferta inicial do MagicGate é:
 
 | Item | Oferta |
 |---|---:|
@@ -372,14 +374,15 @@ Código, infraestrutura interna, configurações operacionais, credenciais, segr
 
 Documentos complementares:
 
-- [Licença pública](LICENSE.md)
-- [Política de segurança](SECURITY.md)
-- [Política de divulgação pública](DISCLOSURE_POLICY.md)
-- [Política de validação de métricas](METRICS_VALIDATION_POLICY.md)
-- [Governança do repositório](GOVERNANCE.md)
-- [Diretrizes de contribuição](CONTRIBUTING.md)
-- [Código de conduta](CODE_OF_CONDUCT.md)
-- [Suporte e perguntas públicas](SUPPORT.md)
+- [Licença pública](LICENSE.md) ([English](LICENSE.en.md))
+- [Política de segurança](SECURITY.md) ([English](SECURITY.en.md))
+- [Política de divulgação pública](DISCLOSURE_POLICY.md) ([English](DISCLOSURE_POLICY.en.md))
+- [Política de validação de métricas](METRICS_VALIDATION_POLICY.md) ([English](METRICS_VALIDATION_POLICY.en.md))
+- [Governança do repositório](GOVERNANCE.md) ([English](GOVERNANCE.en.md))
+- [Diretrizes de contribuição](CONTRIBUTING.md) ([English](CONTRIBUTING.en.md))
+- [Código de conduta](CODE_OF_CONDUCT.md) ([English](CODE_OF_CONDUCT.en.md))
+- [Suporte e perguntas públicas](SUPPORT.md) ([English](SUPPORT.en.md))
+- [Política de paridade de idiomas](DOCUMENTATION_LANGUAGE_POLICY.md) ([English](DOCUMENTATION_LANGUAGE_POLICY.en.md))
 
 ---
 
