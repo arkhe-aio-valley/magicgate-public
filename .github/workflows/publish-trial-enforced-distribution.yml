@@ -32,25 +32,28 @@ jobs:
           set -euo pipefail
           SERVICE='MagicGate Trial API Key'
           CORE="$HOME/.magicgate/bin/magicgate-core"
-          API='https://magicgate.dev/api/trial/validate'
+          PRIMARY='https://magicgate.dev/api/trial/validate'
+          FALLBACK='https://magicgate-r23qfh.v2.appdeploy.ai/api/trial/validate'
           KEY="$(security find-generic-password -a "$USER" -s "$SERVICE" -w 2>/dev/null || true)"
           if [ -z "$KEY" ]; then echo 'MagicGate: API Key de teste ausente. Reinstale informando a chave emitida em magicgate.dev.' >&2; exit 3; fi
           BODY="$(mktemp)"; trap 'rm -f "$BODY"' EXIT
-          CODE="$(curl --silent --show-error --output "$BODY" --write-out '%{http_code}' --connect-timeout 10 --max-time 20 -X POST "$API" -H 'content-type: application/json' --data "{\"api_key\":\"$KEY\"}")" || { echo 'MagicGate: não foi possível validar a licença online.' >&2; exit 4; }
+          request() { curl --silent --show-error --output "$BODY" --write-out '%{http_code}' --connect-timeout 10 --max-time 20 -X POST "$1" -H 'content-type: application/json' --data "{\"api_key\":\"$KEY\"}"; }
+          if ! CODE="$(request "$PRIMARY")"; then CODE="$(request "$FALLBACK")" || { echo 'MagicGate: não foi possível validar a licença online.' >&2; exit 4; }; fi
           if [ "$CODE" != '200' ]; then echo 'MagicGate: API Key inválida ou expirada.' >&2; exit 3; fi
           exec "$CORE" "$@"
           SH
           cat > package/install-magicgate.sh <<'SH'
           #!/usr/bin/env bash
           set -euo pipefail
-          DIR="$(cd "$(dirname "$0")" && pwd)"; SERVICE='MagicGate Trial API Key'; KEY="${1:-}"
+          DIR="$(cd "$(dirname "$0")" && pwd)"; SERVICE='MagicGate Trial API Key'
           if [ "$(uname -s)" != 'Darwin' ]; then echo 'Este pacote de teste é destinado ao macOS.' >&2; exit 2; fi
-          if [ -z "$KEY" ]; then printf 'Cole a API Key emitida em https://magicgate.dev: '; IFS= read -r KEY; fi
+          printf 'Cole a API Key emitida em https://magicgate.dev: '; IFS= read -rs KEY; printf '\n'
           case "$KEY" in mg_trial_[0-9a-f][0-9a-f]*) ;; *) echo 'Formato de API Key inválido.' >&2; exit 2 ;; esac
           mkdir -p "$HOME/.magicgate/bin" "$HOME/.local/bin"
           install -m 755 "$DIR/magicgate-macos-0.3.0" "$HOME/.magicgate/bin/magicgate-core"
           install -m 755 "$DIR/magicgate-trial" "$HOME/.local/bin/magicgate"
           security add-generic-password -U -a "$USER" -s "$SERVICE" -w "$KEY" >/dev/null
+          unset KEY
           CODE_BIN="$(command -v code || true)"; [ -n "$CODE_BIN" ] || CODE_BIN='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
           if [ -x "$CODE_BIN" ]; then "$CODE_BIN" --install-extension "$DIR/magicgate-vscode-0.1.0.vsix" --force; else echo 'VS Code CLI não encontrado. Instale o VSIX manualmente pelo comando Extensions: Install from VSIX.'; fi
           "$HOME/.local/bin/magicgate" --help >/dev/null
@@ -64,12 +67,19 @@ jobs:
           bash -n package/magicgate-trial package/install-magicgate.sh
           T="$(mktemp -d)"; mkdir -p "$T/bin" "$T/home/.magicgate/bin"
           printf '#!/bin/sh\necho mg_trial_0123456789abcdef01234567_0123456789abcdef0123456789abcdef0123456789abcdef\n' > "$T/bin/security"
-          printf '#!/bin/sh\nprintf 200\n' > "$T/bin/curl"
+          cat > "$T/bin/curl" <<'SH'
+          #!/bin/sh
+          case "${CURL_MODE:-ok}:$*" in
+            fallback:*magicgate.dev*) exit 7 ;;
+            expired:*) printf 403 ;;
+            *) printf 200 ;;
+          esac
+          SH
           printf '#!/bin/sh\necho CORE_OK\n' > "$T/home/.magicgate/bin/magicgate-core"
           chmod +x "$T/bin/security" "$T/bin/curl" "$T/home/.magicgate/bin/magicgate-core"
           HOME="$T/home" USER=qa PATH="$T/bin:$PATH" package/magicgate-trial --help | grep -q CORE_OK
-          printf '#!/bin/sh\nprintf 403\n' > "$T/bin/curl"; chmod +x "$T/bin/curl"
-          if HOME="$T/home" USER=qa PATH="$T/bin:$PATH" package/magicgate-trial --help; then echo 'expired key was accepted' >&2; exit 1; fi
+          HOME="$T/home" USER=qa CURL_MODE=fallback PATH="$T/bin:$PATH" package/magicgate-trial --help | grep -q CORE_OK
+          if HOME="$T/home" USER=qa CURL_MODE=expired PATH="$T/bin:$PATH" package/magicgate-trial --help; then echo 'expired key was accepted' >&2; exit 1; fi
       - name: Build and publish package
         env:
           GH_TOKEN: ${{ github.token }}
@@ -79,9 +89,9 @@ jobs:
           MagicGate v0.3.0 - Teste externo macOS
           1. Cadastre-se em https://magicgate.dev e copie sua API Key de 10 dias.
           2. Extraia MagicGate-Test-v0.3.0.zip.
-          3. Execute: ./install-magicgate.sh 'SUA_API_KEY'
-          4. O instalador guarda a chave no Keychain do macOS e instala a extensão VS Code.
-          5. Cada execução valida a chave em magicgate.dev. Após a expiração, o MagicGate bloqueia a execução.
+          3. Execute: ./install-magicgate.sh
+          4. Cole a chave quando solicitado. Ela não é escrita no histórico do Terminal e é guardada no Keychain do macOS.
+          5. O instalador instala a extensão VS Code. Cada execução valida a chave online; após a expiração, o MagicGate bloqueia a execução.
           TXT
           (cd package && sha256sum magicgate-macos-0.3.0 magicgate-vscode-0.1.0.vsix magicgate-trial install-magicgate.sh > SHA256SUMS.txt)
           (cd package && zip -q ../MagicGate-Test-v0.3.0.zip magicgate-macos-0.3.0 magicgate-vscode-0.1.0.vsix magicgate-trial install-magicgate.sh README-INSTALL.txt SHA256SUMS.txt)
