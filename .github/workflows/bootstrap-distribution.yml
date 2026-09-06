@@ -1,0 +1,64 @@
+name: Bootstrap MagicGate distribution
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/bootstrap-distribution.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout public distribution repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Download and verify public bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .bootstrap distribution
+          mkdir -p .bootstrap distribution
+          curl -L --fail --retry 3 "https://magicgate-r23qfh.v2.appdeploy.ai/downloads/MagicGate-Test-v0.3.0.zip" -o .bootstrap/MagicGate-Test-v0.3.0.zip
+          unzip -q .bootstrap/MagicGate-Test-v0.3.0.zip -d .bootstrap/files
+          sha256sum .bootstrap/files/magicgate-0.3.0-py3-none-any.whl
+          sha256sum .bootstrap/files/magicgate-vscode-0.1.0.vsix
+          sha256sum .bootstrap/files/install-magicgate.py
+          cp .bootstrap/MagicGate-Test-v0.3.0.zip distribution/
+          cp .bootstrap/files/magicgate-vscode-0.1.0.vsix distribution/
+          cp .bootstrap/files/magicgate-0.3.0-py3-none-any.whl distribution/
+          cp .bootstrap/files/install-magicgate.py distribution/
+          cat > distribution/SHA256SUMS.txt <<'EOF'
+          dea56cb9eb923e051ac3eca8dfb007267dfed4e04c4c7df84ad5c5c26355b1a0  magicgate-0.3.0-py3-none-any.whl
+          a896275302de010199988c00f1ae4e1f7cc5538ec903f4056ef4aada1f13a100  magicgate-vscode-0.1.0.vsix
+          dc9af09fb05fa41ddaa42cb4abb89f1b3ddb3a015761f628485abf0833ecb7fb  install-magicgate.py
+          EOF
+          (cd distribution && sha256sum -c SHA256SUMS.txt)
+          cat > distribution/README.md <<'EOF'
+          # MagicGate Distribution
+
+          Artefatos públicos instaláveis do MagicGate.
+
+          - `MagicGate-Test-v0.3.0.zip`: pacote consolidado para teste.
+          - `magicgate-vscode-0.1.0.vsix`: extensão VS Code.
+          - `magicgate-0.3.0-py3-none-any.whl`: pacote Python instalável.
+          - `install-magicgate.py`: instalador cross-platform.
+          - `SHA256SUMS.txt`: checksums SHA-256 dos componentes principais.
+
+          O código-fonte canônico permanece no repositório privado do produto. Este diretório contém somente artefatos autorizados para distribuição externa.
+          EOF
+
+      - name: Commit public binaries and remove bootstrap workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .bootstrap
+          rm -f .github/workflows/bootstrap-distribution.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add distribution .github/workflows/bootstrap-distribution.yml
+          git commit -m "release: publica distribuição MagicGate v0.3.0"
+          git push origin HEAD:main
