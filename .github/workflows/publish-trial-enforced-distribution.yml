@@ -1,0 +1,90 @@
+name: Publish trial-enforced MagicGate distribution
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-trial-enforced-distribution.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Download validated public binaries
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p package
+          gh release download v0.3.0 --pattern magicgate-macos-0.3.0 --pattern magicgate-vscode-0.1.0.vsix --dir package
+          echo '39305dcacdc4580e142ade818929d8f707f6e0a68737a2cfc3e12ff2ee5aec81  package/magicgate-macos-0.3.0' | sha256sum -c -
+          echo '31787a2ff35200abf0cdc65ae0f354a063423fc97ecc35293166a43496862af1  package/magicgate-vscode-0.1.0.vsix' | sha256sum -c -
+      - name: Create trial wrapper and installer
+        run: |
+          cat > package/magicgate-trial <<'SH'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          SERVICE='MagicGate Trial API Key'
+          CORE="$HOME/.magicgate/bin/magicgate-core"
+          API='https://magicgate.dev/api/trial/validate'
+          KEY="$(security find-generic-password -a "$USER" -s "$SERVICE" -w 2>/dev/null || true)"
+          if [ -z "$KEY" ]; then echo 'MagicGate: API Key de teste ausente. Reinstale informando a chave emitida em magicgate.dev.' >&2; exit 3; fi
+          BODY="$(mktemp)"; trap 'rm -f "$BODY"' EXIT
+          CODE="$(curl --silent --show-error --output "$BODY" --write-out '%{http_code}' --connect-timeout 10 --max-time 20 -X POST "$API" -H 'content-type: application/json' --data "{\"api_key\":\"$KEY\"}")" || { echo 'MagicGate: não foi possível validar a licença online.' >&2; exit 4; }
+          if [ "$CODE" != '200' ]; then echo 'MagicGate: API Key inválida ou expirada.' >&2; exit 3; fi
+          exec "$CORE" "$@"
+          SH
+          cat > package/install-magicgate.sh <<'SH'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          DIR="$(cd "$(dirname "$0")" && pwd)"; SERVICE='MagicGate Trial API Key'; KEY="${1:-}"
+          if [ "$(uname -s)" != 'Darwin' ]; then echo 'Este pacote de teste é destinado ao macOS.' >&2; exit 2; fi
+          if [ -z "$KEY" ]; then printf 'Cole a API Key emitida em https://magicgate.dev: '; IFS= read -r KEY; fi
+          case "$KEY" in mg_trial_[0-9a-f][0-9a-f]*) ;; *) echo 'Formato de API Key inválido.' >&2; exit 2 ;; esac
+          mkdir -p "$HOME/.magicgate/bin" "$HOME/.local/bin"
+          install -m 755 "$DIR/magicgate-macos-0.3.0" "$HOME/.magicgate/bin/magicgate-core"
+          install -m 755 "$DIR/magicgate-trial" "$HOME/.local/bin/magicgate"
+          security add-generic-password -U -a "$USER" -s "$SERVICE" -w "$KEY" >/dev/null
+          CODE_BIN="$(command -v code || true)"; [ -n "$CODE_BIN" ] || CODE_BIN='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
+          if [ -x "$CODE_BIN" ]; then "$CODE_BIN" --install-extension "$DIR/magicgate-vscode-0.1.0.vsix" --force; else echo 'VS Code CLI não encontrado. Instale o VSIX manualmente pelo comando Extensions: Install from VSIX.'; fi
+          "$HOME/.local/bin/magicgate" --help >/dev/null
+          echo 'MagicGate 0.3.0 ativado. A API Key é validada online e expira automaticamente ao fim do trial.'
+          echo 'Se necessário, adicione ao PATH: export PATH="$HOME/.local/bin:$PATH"'
+          SH
+          chmod 0755 package/magicgate-trial package/install-magicgate.sh
+      - name: Test wrapper fail-closed behavior
+        run: |
+          set -euo pipefail
+          bash -n package/magicgate-trial package/install-magicgate.sh
+          T="$(mktemp -d)"; mkdir -p "$T/bin" "$T/home/.magicgate/bin"
+          printf '#!/bin/sh\necho mg_trial_0123456789abcdef01234567_0123456789abcdef0123456789abcdef0123456789abcdef\n' > "$T/bin/security"
+          printf '#!/bin/sh\nprintf 200\n' > "$T/bin/curl"
+          printf '#!/bin/sh\necho CORE_OK\n' > "$T/home/.magicgate/bin/magicgate-core"
+          chmod +x "$T/bin/security" "$T/bin/curl" "$T/home/.magicgate/bin/magicgate-core"
+          HOME="$T/home" USER=qa PATH="$T/bin:$PATH" package/magicgate-trial --help | grep -q CORE_OK
+          printf '#!/bin/sh\nprintf 403\n' > "$T/bin/curl"; chmod +x "$T/bin/curl"
+          if HOME="$T/home" USER=qa PATH="$T/bin:$PATH" package/magicgate-trial --help; then echo 'expired key was accepted' >&2; exit 1; fi
+      - name: Build and publish package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cat > package/README-INSTALL.txt <<'TXT'
+          MagicGate v0.3.0 - Teste externo macOS
+          1. Cadastre-se em https://magicgate.dev e copie sua API Key de 10 dias.
+          2. Extraia MagicGate-Test-v0.3.0.zip.
+          3. Execute: ./install-magicgate.sh 'SUA_API_KEY'
+          4. O instalador guarda a chave no Keychain do macOS e instala a extensão VS Code.
+          5. Cada execução valida a chave em magicgate.dev. Após a expiração, o MagicGate bloqueia a execução.
+          TXT
+          (cd package && sha256sum magicgate-macos-0.3.0 magicgate-vscode-0.1.0.vsix magicgate-trial install-magicgate.sh > SHA256SUMS.txt)
+          (cd package && zip -q ../MagicGate-Test-v0.3.0.zip magicgate-macos-0.3.0 magicgate-vscode-0.1.0.vsix magicgate-trial install-magicgate.sh README-INSTALL.txt SHA256SUMS.txt)
+          sha256sum MagicGate-Test-v0.3.0.zip
+          gh release upload v0.3.0 MagicGate-Test-v0.3.0.zip package/install-magicgate.sh package/README-INSTALL.txt package/SHA256SUMS.txt --clobber
+          gh release edit v0.3.0 --notes 'Pacote público oficial de avaliação do MagicGate v0.3.0. Inclui executável macOS, extensão VS Code e instalador. A API Key é emitida em magicgate.dev, armazenada no Keychain e validada online antes da execução; o trial expira automaticamente após 10 dias.'
