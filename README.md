@@ -78,6 +78,23 @@ A referência comercial inicial definida para validação é:
 
 Cadastro, elegibilidade do trial, cobrança, licenças, API Keys e consoles comerciais ainda pertencem à camada comercial em evolução.
 
+## Chamada para investidores
+
+O MagicGate está aberto a conversas com investidores estratégicos interessados em infraestrutura de engenharia de software, automação responsável, inteligência artificial aplicada e aumento de produtividade técnica.
+
+Estamos em estágio de lançamento e validação comercial, com a versão v0.3.0, CLI operacional, evidências públicas de execução e evolução planejada para distribuição, integração comercial e expansão controlada.
+
+Buscamos investidores que possam contribuir com:
+
+- capital para acelerar produto, nuvem, segurança, operação e distribuição;
+- experiência em software, IA, ferramentas para desenvolvedores ou SaaS;
+- conexões estratégicas com equipes de engenharia, startups e empresas de tecnologia;
+- orientação para validação comercial e expansão internacional.
+
+Os materiais para investidores são apresentados de forma controlada e não incluem código-fonte, credenciais, tokens, dados pessoais, arquitetura interna ou informações confidenciais.
+
+Para iniciar uma conversa, acesse [magicgate.dev](https://magicgate.dev) e utilize o canal oficial de contato.
+
 ## Roadmap
 
 ### Operacional na v0.3.0
