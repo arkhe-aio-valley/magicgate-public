@@ -1,5 +1,7 @@
 # MagicGate
 
+🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
+
 **Da intenção à execução. Da execução à evidência. Da evidência à escala.**
 
 > **Release de referência:** v0.3.0  
