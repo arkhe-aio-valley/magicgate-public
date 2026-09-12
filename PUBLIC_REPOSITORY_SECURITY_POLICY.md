@@ -1,5 +1,7 @@
 # Política mandatória de segurança para repositórios públicos
 
+[Português](PUBLIC_REPOSITORY_SECURITY_POLICY.md) | [English](PUBLIC_REPOSITORY_SECURITY_POLICY.en.md)
+
 ## Regra permanente
 
 Todo repositório público do ecossistema ARKHE | AIO deve conter somente artefatos deliberadamente públicos.
