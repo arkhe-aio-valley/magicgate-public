@@ -1,5 +1,7 @@
 # Mandatory Security Policy for Public Repositories
 
+[Português](PUBLIC_REPOSITORY_SECURITY_POLICY.md) | [English](PUBLIC_REPOSITORY_SECURITY_POLICY.en.md)
+
 ## Permanent rule
 
 Every public repository in the ARKHE | AIO ecosystem must contain only artifacts deliberately intended for public disclosure.
