@@ -2,145 +2,162 @@
 
 🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
 
+## Transforme planos de software em execução verificável
+
 **Da intenção à execução. Da execução à evidência. Da evidência à escala.**
 
-> **Release de referência:** v0.3.0  
-> **Domínio oficial:** [magicgate.dev](https://magicgate.dev)  
-> **Código-fonte do produto:** privado por design
+MagicGate é uma camada de execução para engenharia de software criada para reduzir o trabalho operacional entre **decidir o que precisa ser feito** e **comprovar que foi feito corretamente**.
 
-## O que é
+Em vez de tratar automação como uma caixa-preta, o MagicGate organiza a entrega em planos determinísticos, executa tarefas sob controles de segurança, valida resultados, persiste estado e produz evidências e métricas observáveis.
 
-MagicGate é uma camada de execução para engenharia de software. Ele transforma planos estruturados em fluxos controlados de execução, validação, evidência e medição.
+> **Release de produto:** v0.3.0  
+> **VS Code Control Center:** release privada 0.1.1  
+> **Site oficial:** [magicgate.dev](https://magicgate.dev)  
+> **Código-fonte:** privado por design
 
-A proposta é reduzir o trabalho operacional repetitivo entre uma intenção de software e uma entrega verificável, preservando sob responsabilidade humana as decisões críticas, o contexto, a arquitetura e o julgamento profissional.
+## O problema
 
-Ciclo conceitual:
+Equipes de software perdem capacidade em tarefas que não deveriam consumir o melhor tempo de engenharia: coordenar etapas repetitivas, conferir dependências, retomar execuções interrompidas, reunir evidências, validar gates, acompanhar progresso e reconstruir o que aconteceu depois de uma automação.
+
+Ferramentas de IA aceleram a produção de código, mas velocidade sem controle cria uma nova pergunta: **como transformar intenção em entrega reproduzível, auditável e segura?**
+
+O MagicGate foi construído para ocupar exatamente esse espaço.
+
+## A proposta
+
+O fluxo do MagicGate é simples de explicar e rigoroso na execução:
 
 **definir → planejar → executar → testar → validar → registrar → medir → evoluir**
 
-## Capacidades atuais da v0.3.0
+O objetivo não é substituir julgamento de engenharia. É ampliar a capacidade do time removendo trabalho operacional repetitivo e tornando a automação mais controlável.
 
-A baseline atual inclui:
+### Para equipes de engenharia
 
-- execução orientada por planos determinísticos;
-- formato de plano `magicgate-plan-v1`;
-- ordenação de tarefas e controle de dependências;
-- execução controlada, retomada e persistência de estado;
-- evidências obrigatórias para conclusão;
-- políticas de segurança com comportamento fail-closed;
+- menos coordenação manual entre etapas de uma entrega;
+- retomada de execuções com estado persistido;
+- progresso derivado de tarefas realmente concluídas;
+- evidências para auditoria e diagnóstico;
+- métricas de autonomia, qualidade, retries e intervenção humana;
+- integração com fluxos de desenvolvimento existentes.
+
+### Para startups e software houses
+
+- mais capacidade operacional sem depender de uma camada crescente de processos manuais;
+- padronização de execução entre projetos;
+- visibilidade sobre o que a automação fez e por quê;
+- controle explícito de custo e segurança;
+- base para escalar automação sem abrir mão de governança.
+
+### Para organizações com requisitos de controle
+
+- comportamento fail-closed;
+- SafetyPolicy e CostGuard;
 - proteção contra ações destrutivas e material com aparência de segredo;
-- controle de custo;
-- autenticação ChatGPT delegada ao Codex CLI, sem custódia de tokens pelo MagicGate;
-- métricas de duração, autonomia, qualidade, retries e intervenção humana;
-- MagicGate Productivity Index (MGPI);
-- diagnóstico de ambiente com `magicgate doctor`;
+- confinamento ao workspace autorizado;
+- evidência observável como requisito de conclusão;
+- separação entre automação e decisões humanas críticas.
+
+## O que já existe
+
+A baseline v0.3.0 reúne uma camada operacional de execução, não apenas uma demonstração conceitual:
+
+- CLI canônica;
+- planos determinísticos `magicgate-plan-v1`;
+- ordenação de tarefas e dependências;
+- execução controlada e retomada;
+- persistência de estado;
+- evidências obrigatórias para conclusão;
+- Runtime Doctor;
+- SafetyPolicy e CostGuard;
+- métricas operacionais e MagicGate Productivity Index (MGPI);
 - validação de releases;
-- CLI canônica para execução e leitura de resultados;
-- Investor Hunter para pesquisa e priorização de investidores, com controles de divulgação;
 - baseline técnica do Remote Link;
-- extensão privada para VS Code com Control Center em evolução.
+- Investor Hunter com scoring determinístico e controles de divulgação;
+- VS Code Control Center privado, com Doctor, Run Plan, Resume, Safety, Metrics e Active Plans.
 
-## Evidências públicas
+## Evidência antes de promessa
 
-Os resultados abaixo são específicos das execuções registradas e não constituem garantia universal de desempenho:
+O MagicGate adota uma regra comercial e técnica deliberadamente simples:
 
-| Validação | Resultado observado |
+> **execução real + evidência observável = métrica validada**
+
+Resultados públicos são apresentados como observações das execuções que os produziram — não como garantia universal de desempenho.
+
+| Evidência registrada | Resultado observado |
 |---|---:|
 | Control Center — plano de 3 tarefas | progresso canônico 33% → 66% → 100% |
 | Bateria funcional registrada | 100% de sucesso e autonomia |
 | Remote Link — baseline v0.3.0 | 58/58 testes aprovados, typecheck e build aprovados |
 | Execução operacional adicional | 14,90 s, 100% de autonomia e 0 s de intervenção humana |
-| MGPI observado em execuções registradas | 99,97–99,99 |
+| MGPI em execuções registradas | 99,97–99,99 |
 
-Uma métrica só é apresentada como validada quando deriva de uma execução real e possui evidência observável. Projeções, metas e comparações humano-equivalentes permanecem identificadas como estimativas.
+Comparações humano-equivalentes, projeções econômicas e ganhos futuros permanecem classificados como estimativas até que benchmarks comparáveis sustentem conclusões mais amplas.
 
-## VS Code Control Center
+## MagicGate no VS Code
 
-A extensão privada em evolução oferece uma interface para:
+O Control Center aproxima o ciclo de execução do ambiente em que o desenvolvedor já trabalha. A release privada **0.1.1** da extensão VS Code está empacotada e integra os fluxos principais do MagicGate.
 
-- Doctor;
-- Run Plan;
-- Resume;
-- Safety;
-- Metrics;
-- Active Plans;
-- acompanhamento baseado no estado real da execução.
+O projeto mantém uma distinção importante entre disponibilidade do artefato e validação de plataforma: o launcher Windows foi implementado e empacotado, enquanto a aprovação E2E Windows permanece condicionada à cadeia completa de instalação, ativação, launcher e execução verificável.
 
-A extensão ainda precisa concluir a preparação comercial e operacional para publicação no Visual Studio Code Marketplace, incluindo empacotamento final, metadados, validação e credenciais de publicação.
+Essa disciplina evita transformar “funciona em teoria” em alegação comercial.
+
+## Segurança por design
+
+Automação útil precisa ter limites previsíveis. O MagicGate incorpora controles para que velocidade não dependa de reduzir segurança:
+
+- execução restrita ao workspace autorizado;
+- allowlist de executáveis;
+- bloqueio de ações destrutivas;
+- bloqueio de material com aparência de segredo;
+- CostGuard para impedir consumo externo não autorizado;
+- autenticação ChatGPT delegada ao Codex CLI, sem custódia de tokens pelo MagicGate;
+- conclusão condicionada a evidências;
+- divulgação externa sujeita a governança específica.
 
 ## Oferta de lançamento
 
-A referência comercial inicial definida para validação é:
+A referência comercial inicial definida para validação é direta:
 
-| Item | Condição |
+| Oferta | Condição |
 |---|---:|
-| Avaliação | 10 dias grátis |
-| Assinatura após o período gratuito | US$ 19/mês |
+| Avaliação | **10 dias grátis** |
+| Assinatura após o trial | **US$ 19/mês** |
 | Renovação | mensal |
 
-Cadastro, elegibilidade do trial, cobrança, licenças, API Keys e consoles comerciais ainda pertencem à camada comercial em evolução.
+A infraestrutura comercial de cadastro, elegibilidade, cobrança, licenciamento, API Keys e consoles está no roadmap de lançamento. Nenhuma cobrança é apresentada como ativa antes dessa camada estar operacional e validada.
 
-## Chamada para investidores
+## Por que MagicGate
 
-O MagicGate está aberto a conversas com investidores estratégicos interessados em infraestrutura de engenharia de software, automação responsável, inteligência artificial aplicada e aumento de produtividade técnica.
+A tese do produto não é “IA escreve código”. O mercado já está provando que modelos conseguem ajudar nisso.
 
-Estamos em estágio de lançamento e validação comercial, com a versão v0.3.0, CLI operacional, evidências públicas de execução e evolução planejada para distribuição, integração comercial e expansão controlada.
+A tese do MagicGate é outra: **quanto mais execução é delegada à automação, mais valiosa se torna a camada que controla, valida, registra e mede essa execução.**
 
-Buscamos investidores que possam contribuir com:
+MagicGate foi desenhado para ser essa camada entre intenção e entrega verificável.
 
-- capital para acelerar produto, nuvem, segurança, operação e distribuição;
-- experiência em software, IA, ferramentas para desenvolvedores ou SaaS;
-- conexões estratégicas com equipes de engenharia, startups e empresas de tecnologia;
-- orientação para validação comercial e expansão internacional.
+## Investidores e parceiros estratégicos
 
-Os materiais para investidores são apresentados de forma controlada e não incluem código-fonte, credenciais, tokens, dados pessoais, arquitetura interna ou informações confidenciais.
+O MagicGate está aberto a conversas com investidores e parceiros que compartilhem a visão de uma engenharia de software com mais automação, evidência e controle.
 
-Para iniciar uma conversa, acesse [magicgate.dev](https://magicgate.dev) e utilize o canal oficial de contato.
+Buscamos especialmente experiência e distribuição em:
 
-## Roadmap
+- developer tools e infraestrutura de engenharia;
+- inteligência artificial aplicada ao ciclo de software;
+- SaaS B2B;
+- segurança e governança de automação;
+- distribuição para startups, software houses e equipes de engenharia;
+- expansão internacional.
 
-### Operacional na v0.3.0
+Materiais privados são compartilhados de forma controlada. Código-fonte, credenciais, dados pessoais, arquitetura interna e informações confidenciais não fazem parte da divulgação pública.
 
-- CLI e planos determinísticos;
-- execução, retomada, estado e evidências;
-- SafetyPolicy e CostGuard;
-- Doctor multiplataforma;
-- métricas e MGPI;
-- pipeline de release com gates;
-- baseline técnica do Remote Link.
+**Produto, parceria ou investimento:** acesse [magicgate.dev](https://magicgate.dev) e utilize o canal oficial de contato.
 
-### Em evolução
+## Roadmap de alto nível
 
-- VS Code Control Center;
-- cenários de Remote Link e execução remota controlada;
-- benchmarks comparáveis baseados em execuções reais;
-- operação distribuída controlada;
-- integração ampliada entre execução, métricas, custo e segurança.
+O próximo ciclo concentra-se em distribuição comercial controlada: evolução do Control Center e Remote Link, benchmarks comparáveis, camada de cadastro/licenciamento/cobrança, Customer Console, Admin Console e telemetria sanitizada.
 
-### Próxima camada comercial
+Cada promoção continua condicionada aos gates técnicos e de segurança aplicáveis.
 
-- cadastro e autenticação de usuários;
-- trial de 10 dias e controle de elegibilidade;
-- cobrança recorrente;
-- licenças e MagicGate API Keys;
-- Customer Console e Admin Console;
-- telemetria sanitizada.
-
-## Segurança e divulgação
-
-Este repositório contém somente informações aprovadas para divulgação. Não devem ser publicados aqui:
-
-- código-fonte proprietário;
-- credenciais, tokens, chaves privadas ou segredos;
-- configurações e infraestrutura internas;
-- logs sensíveis;
-- dados pessoais ou financeiros não autorizados;
-- mecanismos proprietários que permitam reconstrução indevida do produto;
-- estratégias internas não aprovadas.
-
-Automação não autoriza divulgação externa. O fluxo de divulgação deve permanecer sujeito a validação e governança apropriadas.
-
-## Documentação
+## Documentação pública
 
 - [Licença](LICENSE.md)
 - [Política de segurança](SECURITY.md)
@@ -153,4 +170,6 @@ Automação não autoriza divulgação externa. O fluxo de divulgação deve per
 
 ---
 
-**Plan. Execute. Measure. Scale.**
+### Plan. Execute. Measure. Scale.
+
+**MagicGate — transforme automação em execução que você pode verificar.**
