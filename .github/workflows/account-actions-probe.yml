@@ -1,0 +1,21 @@
+name: Account Actions Probe
+
+on:
+  push:
+    branches:
+      - "ops/actions-control-plane-probe-20261008"
+    paths:
+      - ".github/workflows/account-actions-probe.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Materialize public job
+        run: |
+          echo "PUBLIC_ACTIONS_PROBE=OK"
+          echo "SHA=$GITHUB_SHA"
