@@ -2,6 +2,32 @@
 
 🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/MagicGate_logo_horizontal_dark_vector.svg"><img src="assets/brands/MagicGate_logo_horizontal_light_vector.svg" alt="MagicGate — Where AI Meets Execution." width="420"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/RaisePact_logo_horizontal_dark_vector.svg"><img src="assets/brands/RaisePact_logo_horizontal_light_vector.svg" alt="RaisePact — Where Code Meets Capital." width="420"></picture>
+
+## ARKHE: tecnologia que transforma ideias em oportunidades
+
+**Uma boa ideia precisa de três coisas: ser construída, ser bem administrada e encontrar caminhos para crescer.** Hoje, essas etapas frequentemente ficam desconectadas. É para aproximá-las que o grupo ARKHE desenvolve três soluções complementares.
+
+| Ferramenta | Explicação simples |
+|---|---|
+| **MagicGate** | Ajuda equipes a transformar planos de software em entregas verificáveis, com menos tarefas manuais e mais controle. |
+| **ACCESS** | Define regras para o uso de ferramentas e serviços de inteligência artificial, protegendo permissões e decisões importantes. |
+| **RaisePact** | Ajuda projetos a organizar evidências, avaliar sua preparação e identificar possíveis investidores com critérios mais claros. |
+
+**Como trabalham juntas?** O MagicGate apoia a construção do produto. O ACCESS orienta quem pode acessar ferramentas e o que está autorizado. O RaisePact oferece uma forma mais estruturada de apresentar e analisar oportunidades de crescimento.
+
+As três soluções têm responsabilidades independentes. **A integração completa é uma visão em desenvolvimento, não um serviço já comprovado em produção.** Dados privados não são compartilhados automaticamente, e toda conexão depende de permissões, segurança e validação.
+
+**Para investidores e parceiros:** buscamos conversas sobre uma oportunidade de construir soluções de software com evidências, governança e potencial de escala. Não prometemos retorno financeiro, clientes ou faturamento que ainda não foram comprovados.
+
+**[Conheça a história, os problemas, as soluções e o convite ao investidor](ECOSSISTEMA_ARKHE.md)** · [Site MagicGate](https://magicgate.dev) · [Conheça o RaisePact](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+
+---
+
+## Detalhamento do produto MagicGate
+
 ## Transforme planos de software em execução verificável
 
 **Da intenção à execução. Da execução à evidência. Da evidência à escala.**
