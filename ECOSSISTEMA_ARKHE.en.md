@@ -2,9 +2,9 @@
 
 🌐 **Idioma:** [Português](ECOSSISTEMA_ARKHE.md) | [English](ECOSSISTEMA_ARKHE.en.md)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/MagicGate_logo_horizontal_dark_vector.svg"><img src="assets/brands/MagicGate_logo_horizontal_light_vector.svg" alt="MagicGate — Where AI Meets Execution." width="420"></picture>
+<img src="assets/brands/MagicGate_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca oficial homologada do MagicGate — Where AI Meets Execution." width="420">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/RaisePact_logo_horizontal_dark_vector.svg"><img src="assets/brands/RaisePact_logo_horizontal_light_vector.svg" alt="RaisePact — Where Code Meets Capital." width="420"></picture>
+<img src="assets/brands/RaisePact_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca oficial homologada do RaisePact — Where Code Meets Capital." width="420">
 
 ## A good idea should not get lost on the way
 
