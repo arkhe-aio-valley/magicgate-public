@@ -2,6 +2,32 @@
 
 🌐 **Language:** [Português](README.md) | [English](README.en.md)
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/MagicGate_logo_horizontal_dark_vector.svg"><img src="assets/brands/MagicGate_logo_horizontal_light_vector.svg" alt="MagicGate — Where AI Meets Execution." width="420"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/brands/RaisePact_logo_horizontal_dark_vector.svg"><img src="assets/brands/RaisePact_logo_horizontal_light_vector.svg" alt="RaisePact — Where Code Meets Capital." width="420"></picture>
+
+## ARKHE: technology that helps turn ideas into opportunities
+
+**A good idea needs three things: to be built, to be managed responsibly, and to find a path to grow.** Today, these steps are often disconnected. The ARKHE group is developing three complementary solutions to bring them closer together.
+
+| Tool | In plain language |
+|---|---|
+| **MagicGate** | Helps teams turn software plans into verifiable deliveries with less manual work and more control. |
+| **ACCESS** | Defines rules for using AI tools and services, safeguarding permissions and important decisions. |
+| **RaisePact** | Helps projects organize evidence, assess readiness, and identify potentially aligned investors using clearer criteria. |
+
+**How do they work together?** MagicGate supports building the product. ACCESS governs which tools and actions are authorized. RaisePact supports a more structured way of presenting and assessing growth opportunities.
+
+Each solution has its own responsibilities. **Full integration is an evolving vision, not a production capability already proven.** Private data does not flow automatically; connections require permissions, security, and validation.
+
+**For investors and partners:** we welcome conversations about an opportunity to build evidence-driven, governed software solutions with room to scale. We do not promise unverified returns, customer counts, or revenue.
+
+**[Read the story, the problem, the solutions, and the investor invitation](ECOSSISTEMA_ARKHE.en.md)** · [MagicGate website](https://magicgate.dev) · [Meet RaisePact](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+
+---
+
+## More about MagicGate
+
 **From intent to execution. From execution to evidence. From evidence to scale.**
 
 > **Current release: MagicGate v0.3.0**  
