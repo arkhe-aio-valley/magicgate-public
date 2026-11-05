@@ -4,7 +4,7 @@
 
 ## Principle
 
-Only metrics derived from tests that were actually executed may be presented as validated MagicGate metrics.
+Only metrics derived from tests that were actually executed may be presented as validated ˜MagicGate˜ metrics.
 
 ## Validated metric
 

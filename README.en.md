@@ -1,30 +1,32 @@
-# ARKHE
+# ˜Arkhé˜
 
 🌐 **Language:** [Português](README.md) | [English](README.en.md)
 
-<img src="assets/brands/ARKHE_ecosystem.svg" alt="ARKHE visual identity connecting MagicGate, ACCESS, and Investor Hunter, also publicly known as RaisePact." width="900">
+<img src="assets/brands/ARKHE_ecosystem.svg" alt="The ˜Arkhé˜ group and its solutions: ˜MagicGate˜, ˜Access˜, and ˜RaisePact˜." width="900">
 
-This repository is the public presentation of the **ARKHE** group and remains the official public repository for MagicGate.
+<img src="assets/brands/Access_identity.svg" alt="˜Access˜ visual identity in the group's visual palette." width="300">
 
-> **About:** Official public repository for MagicGate. Project overview, roadmap, release status, public metrics, and documentation. Source code and internal infrastructure remain private.
+This repository is the public presentation of the **˜Arkhé˜** group and remains the official public repository for ˜MagicGate˜.
+
+> **About:** Official public repository for ˜MagicGate˜. Project overview, roadmap, release status, public metrics, and documentation. Source code and internal infrastructure remain private.
 
 ## Three repositories, three problems, three solutions
 
-The ARKHE group brings together three complementary solutions. Each can operate independently; full integration is not claimed as proven in production.
+The ˜Arkhé˜ group brings together three complementary solutions. Each can operate independently; full integration is not claimed as proven in production.
 
 | Repository / solution | Problem | Proposed solution |
 |---|---|---|
-| **MagicGate** (`MagicGate`, private) | Repetitive operational work and limited visibility into what was actually completed. | Plan and execute software work under controls, validate outcomes, and record evidence. |
-| **ACCESS** (`access`, private) | Access to AI tools and services without clear authorization rules or usage limits. | Govern permissions and usage conditions, including actions requiring human review or denial. |
-| **Investor Hunter** (`investor-hunter`, private; public brand **RaisePact**) | Researching and assessing projects and investors without organized criteria and evidence. | Structure information and support opportunity prioritization with clearer criteria. |
+| **˜MagicGate˜** (`MagicGate`, private) | Repetitive operational work and limited visibility into what was actually completed. | Plan and execute software work under controls, validate outcomes, and record evidence. |
+| **˜Access˜** (`access`, private) | Missing clear authorization rules and limits for using AI tools and services. | Govern permissions and usage conditions, including actions requiring human review or denial. |
+| **˜RaisePact˜** (`investor-hunter`, private) | Researching and assessing projects and investors without organized criteria and evidence. | Structure information and support opportunity prioritization with clearer criteria. |
 
-**How they relate:** MagicGate supports product development; ACCESS governs tool usage and permissions; Investor Hunter/RaisePact organizes the assessment of growth opportunities.
+**How they relate:** ˜MagicGate˜ supports product development; ˜Access˜ governs tool usage and permissions; ˜RaisePact˜ organizes the assessment of growth opportunities.
 
 All three implementation repositories are private. **Integration across the solutions is a direction under development, not a complete service proven in production.** Private data is not shared automatically; every connection requires permissions, security, and validation.
 
 **For investors and partners:** we welcome conversations about an opportunity to build evidence-driven, governed software solutions with room to scale. We do not promise unverified returns, customer counts, or revenue.
 
-**[Read the story, the problem, the solutions, and the investor invitation](ECOSSISTEMA_ARKHE.en.md)** · [MagicGate website](https://magicgate.dev) · [Meet RaisePact](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+**[Read the story, the problem, the solutions, and the investor invitation](ECOSSISTEMA_ARKHE.en.md)** · [˜MagicGate˜ website](https://magicgate.dev) · [Meet ˜RaisePact˜](https://raisepact-vnlcwb.v2.appdeploy.ai/)
 
 ---
 
@@ -37,23 +39,23 @@ All three implementation repositories are private. **Integration across the solu
 
 ---
 
-## More about MagicGate
+## More about ˜MagicGate˜
 
 **From intent to execution. From execution to evidence. From evidence to scale.**
 
-> **Current release: MagicGate v0.3.0**  
+> **Current release: ˜MagicGate˜ v0.3.0**
 > **Launch offer: 10-day free trial, then US$ 19/month to continue.**  
 > **Official domain: `magicgate.dev`**
 
 ## Vision
 
-MagicGate is a plan-driven technology execution platform designed to reduce the operational work required between software intent and a validated delivery.
+˜MagicGate˜ is a plan-driven technology execution platform designed to reduce the operational work required between software intent and a validated delivery.
 
 Its central thesis is:
 
 > Software complexity should not require proportional growth in the amount of human work needed to build, validate, and evolve it.
 
-MagicGate is designed to expand the operational capacity of engineering professionals and teams through controlled execution, measurement, evidence, and governance.
+˜MagicGate˜ is designed to expand the operational capacity of engineering professionals and teams through controlled execution, measurement, evidence, and governance.
 
 Human professionals remain responsible for objectives, decisions, architecture, context, validation, and judgment.
 
@@ -71,9 +73,9 @@ Engineering cost is not only the cost of producing code. It is also the amount o
 
 ---
 
-## The MagicGate proposition
+## The ˜MagicGate˜ proposition
 
-MagicGate turns structured plans into controlled operational flows.
+˜MagicGate˜ turns structured plans into controlled operational flows.
 
 Its purpose is to progressively reduce repetitive operational work that can be executed safely while keeping critical decisions and judgment under human responsibility.
 
@@ -85,7 +87,7 @@ The goal is to move professionals away from permanently executing microtasks and
 
 ---
 
-## MagicGate v0.3.0
+## ˜MagicGate˜ v0.3.0
 
 v0.3.0 is an official release promoted only after mandatory validation gates passed on the same commit.
 
@@ -100,13 +102,13 @@ Publicly declared capabilities in this release line include:
 - delegated authentication;
 - auditable operational metrics;
 - productivity, autonomy, quality, and human-intervention indicators;
-- MGPI, the MagicGate Productivity Index;
+- MGPI, the ˜MagicGate˜ Productivity Index;
 - human-equivalent scenarios explicitly classified as estimates where applicable;
 - environment diagnostics;
 - release validation;
 - a canonical read-only executions CLI;
-- the embedded Investor Hunter, with external disclosure subject to security controls;
-- a private MagicGate extension for VS Code with a Control Center.
+- the embedded ˜RaisePact˜, with external disclosure subject to security controls;
+- a private ˜MagicGate˜ extension for VS Code with a Control Center.
 
 These capabilities are intentionally described at a functional and conceptual level. This repository does not document their internal implementation.
 
@@ -114,7 +116,7 @@ These capabilities are intentionally described at a functional and conceptual le
 
 ## VS Code Control Center
 
-The 0.3.0 line includes a private MagicGate extension for VS Code designed to operate the product directly from the development environment.
+The 0.3.0 line includes a private ˜MagicGate˜ extension for VS Code designed to operate the product directly from the development environment.
 
 Public Control Center capabilities include:
 
@@ -133,7 +135,7 @@ Displayed progress derives from canonical execution state. A task advances progr
 
 ## Results observed in real tests
 
-MagicGate uses real executions to support results described as observed or validated.
+˜MagicGate˜ uses real executions to support results described as observed or validated.
 
 ### Control Center validation on macOS
 
@@ -172,7 +174,7 @@ Actual results vary with complexity, infrastructure, requirements, dependencies,
 
 ## Metrics
 
-MagicGate was designed to measure its own operation.
+˜MagicGate˜ was designed to measure its own operation.
 
 Observable indicators may include:
 
@@ -197,9 +199,9 @@ Estimates, projections, hypotheses, targets, conceptual scenarios, and theoretic
 
 ---
 
-## MagicGate Productivity Index
+## ˜MagicGate˜ Productivity Index
 
-The **MGPI, MagicGate Productivity Index**, consolidates multiple operational dimensions to support a consistent view of productivity, autonomy, quality, and evidence.
+The **MGPI, ˜MagicGate˜ Productivity Index**, consolidates multiple operational dimensions to support a consistent view of productivity, autonomy, quality, and evidence.
 
 An MGPI value is presented as observed or validated only when its source data comes from real, properly recorded executions.
 
@@ -209,7 +211,7 @@ An MGPI value is presented as observed or validated only when its source data co
 
 ## Efficiency and capacity expansion
 
-MagicGate has two complementary economic propositions.
+˜MagicGate˜ has two complementary economic propositions.
 
 ### Efficiency
 
@@ -219,13 +221,13 @@ Reduce the operational work required to deliver a given technological capability
 
 Use the resulting operational capacity to execute more work with the same human structure.
 
-MagicGate therefore represents a thesis of operational efficiency and technological leverage.
+˜MagicGate˜ therefore represents a thesis of operational efficiency and technological leverage.
 
 ---
 
 ## Launch offer
 
-The initial MagicGate offer is:
+The initial ˜MagicGate˜ offer is:
 
 | Item | Offer |
 |---|---:|
@@ -234,7 +236,7 @@ The initial MagicGate offer is:
 | Renewal | monthly |
 | Continuation after trial | subscription required |
 
-The purpose is to let users evaluate MagicGate in a real environment before deciding whether to continue with a subscription.
+The purpose is to let users evaluate ˜MagicGate˜ in a real environment before deciding whether to continue with a subscription.
 
 Free-trial eligibility control, registration, billing, customer console, and centralized management belong to the next commercial layer of the product and are not presented here as completed v0.3.0 capabilities.
 
@@ -264,7 +266,7 @@ Publicly announced areas under development include:
 - recurring billing;
 - the 10-day evaluation period;
 - trial eligibility by account and device using pseudonymous identifiers;
-- MagicGate API Key creation, rotation, and revocation;
+- ˜MagicGate˜ API Key creation, rotation, and revocation;
 - Customer Console;
 - Admin Console;
 - sanitized telemetry and consolidated metrics;
@@ -278,7 +280,7 @@ Capabilities classified as under development must not be interpreted as complete
 
 ## Security, privacy, and governance
 
-MagicGate publicly adopts a safe-stop preference when an execution cannot be validated adequately.
+˜MagicGate˜ publicly adopts a safe-stop preference when an execution cannot be validated adequately.
 
 Public principles include:
 
@@ -299,9 +301,9 @@ For future device-based trial control, the project plans to use a **pseudonymous
 
 ---
 
-## Investor Hunter
+## ˜RaisePact˜
 
-Investor Hunter is an application within the MagicGate ecosystem designed to support research and prioritization of potential investors.
+˜RaisePact˜ is an application within the ˜MagicGate˜ ecosystem designed to support research and prioritization of potential investors.
 
 At a public level, its proposition is to:
 
@@ -385,7 +387,7 @@ No private material may be published automatically without prior disclosure revi
 
 ## For investors and strategic partners
 
-MagicGate is being developed at the intersection of:
+˜MagicGate˜ is being developed at the intersection of:
 
 **software engineering × controlled automation × measurable productivity × operational efficiency × governance × enterprise scale**
 
@@ -403,7 +405,7 @@ The proposition is to create:
 
 ## About this repository
 
-This is MagicGate's official public-disclosure repository.
+This is ˜MagicGate˜'s official public-disclosure repository.
 
 It is not used to publish the product's source code.
 
@@ -423,13 +425,13 @@ Related documents:
 
 ---
 
-# MAGICGATE
+# ˜MagicGate˜
 
 ## Plan. Execute. Measure. Scale.
 
 > The future of engineering will not be defined only by the number of people available, but by the technological capacity each professional can put into motion.
 
-**Domain:** `magicgate.dev`  
+**Domain:** `magicgate.dev`
 **Release:** `v0.3.0`  
 **Launch offer:** 10 days free, then US$ 19/month  
 **Source code:** private by design.

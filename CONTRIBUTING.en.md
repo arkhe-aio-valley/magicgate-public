@@ -2,7 +2,7 @@
 
 🌐 **Language:** [Português](CONTRIBUTING.md) | [English](CONTRIBUTING.en.md)
 
-MagicGate is not accepting public contributions to private implementation through this repository.
+˜MagicGate˜ is not accepting public contributions to private implementation through this repository.
 
 This repository is intended for public documentation, approved project information, validated public metrics, release information, and other materials explicitly cleared for disclosure.
 

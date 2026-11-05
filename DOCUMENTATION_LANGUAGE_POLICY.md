@@ -4,7 +4,7 @@
 
 ## Princípio
 
-A documentação pública do MagicGate trata **PT-BR e inglês como idiomas de primeira classe**.
+A documentação pública do ˜MagicGate˜ trata **PT-BR e inglês como idiomas de primeira classe**.
 
 Nenhum documento Markdown público deve existir em apenas um dos idiomas.
 

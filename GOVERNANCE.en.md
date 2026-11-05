@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This repository is the public information surface for MagicGate. Its role is communication, transparency, approved evidence, and public project governance.
+This repository is the public information surface for ˜MagicGate˜. Its role is communication, transparency, approved evidence, and public project governance.
 
 ## Maintainer authority
 
@@ -32,6 +32,6 @@ If public information becomes inaccurate, misleading, unsupported, or unsafe to 
 
 ## Private/public boundary
 
-The public repository must remain operationally separate from private MagicGate implementation assets.
+The public repository must remain operationally separate from private ˜MagicGate˜ implementation assets.
 
 Public access to this repository does not grant access to private repositories, systems, environments, source code, credentials, or internal project history.

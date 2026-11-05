@@ -4,7 +4,7 @@
 
 ## Principle
 
-MagicGate public documentation treats **Brazilian Portuguese and English as first-class languages**.
+˜MagicGate˜ public documentation treats **Brazilian Portuguese and English as first-class languages**.
 
 No public Markdown document should exist in only one language.
 

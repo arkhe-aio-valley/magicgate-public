@@ -2,13 +2,13 @@
 
 🌐 **Idioma:** [Português](SUPPORT.md) | [English](SUPPORT.en.md)
 
-Este repositório oferece suporte a perguntas sobre informações divulgadas intencionalmente pelo projeto MagicGate.
+Este repositório oferece suporte a perguntas sobre informações divulgadas intencionalmente pelo projeto ˜MagicGate˜.
 
 ## Tópicos apropriados
 
 Perguntas públicas podem tratar de:
 
-- o que o MagicGate faz;
+- o que o ˜MagicGate˜ faz;
 - conceitos e posicionamento do produto;
 - capacidades anunciadas publicamente;
 - status e roadmap em alto nível;

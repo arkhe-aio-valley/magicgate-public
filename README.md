@@ -1,30 +1,32 @@
-# ARKHE
+# ˜Arkhé˜
 
 🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
 
-<img src="assets/brands/ARKHE_ecosystem.svg" alt="Identidade visual do ARKHE conectando MagicGate, ACCESS e Investor Hunter, também conhecido publicamente como RaisePact." width="900">
+<img src="assets/brands/ARKHE_ecosystem.svg" alt="Grupo ˜Arkhé˜ e suas soluções: ˜MagicGate˜, ˜Access˜ e ˜RaisePact˜." width="900">
 
-Este repositório é a apresentação pública do grupo **ARKHE** e continua sendo o repositório público oficial do MagicGate.
+<img src="assets/brands/Access_identity.svg" alt="Identidade visual de ˜Access˜ na paleta visual do grupo." width="300">
 
-> **Sobre:** Repositório público oficial do MagicGate. Visão geral do projeto, roteiro, status de lançamento, métricas públicas e documentação. O código-fonte e a infraestrutura interna permanecem privados.
+Este repositório é a apresentação pública do grupo **˜Arkhé˜** e continua sendo o repositório público oficial do ˜MagicGate˜.
+
+> **Sobre:** Repositório público oficial do ˜MagicGate˜. Visão geral do projeto, roteiro, status de lançamento, métricas públicas e documentação. O código-fonte e a infraestrutura interna permanecem privados.
 
 ## Três repositórios, três problemas, três soluções
 
-O grupo ARKHE reúne três soluções complementares. Cada uma pode funcionar de forma independente; a integração completa ainda não é apresentada como comprovada em produção.
+O grupo ˜Arkhé˜ reúne três soluções complementares. Cada uma pode funcionar de forma independente; a integração completa ainda não é apresentada como comprovada em produção.
 
 | Repositório / solução | Problema | Proposta de solução |
 |---|---|---|
-| **MagicGate** (`MagicGate`, privado) | Tarefas operacionais repetitivas e pouca visibilidade sobre o que foi realmente concluído. | Planejar e executar trabalho de software sob controles, validando resultados e registrando evidências. |
-| **ACCESS** (`access`, privado) | Acesso a ferramentas e serviços de IA sem regras claras de autorização e limites. | Governar permissões e condições de uso, incluindo ações que exigem intervenção ou devem ser bloqueadas. |
-| **Investor Hunter** (`investor-hunter`, privado; marca pública **RaisePact**) | Pesquisa e avaliação de projetos e investidores sem critérios e evidências organizados. | Estruturar informações e apoiar a priorização de oportunidades com critérios mais claros. |
+| **˜MagicGate˜** (`˜MagicGate˜`, privado) | Tarefas operacionais repetitivas e pouca visibilidade sobre o que foi realmente concluído. | Planejar e executar trabalho de software sob controles, validando resultados e registrando evidências. |
+| **˜Access˜** (`access`, privado) | Acesso a ferramentas e serviços de IA sem regras claras de autorização e limites. | Governar permissões e condições de uso, incluindo ações que exigem intervenção ou devem ser bloqueadas. |
+| **˜RaisePact˜** (`investor-hunter`, privado) | Pesquisa e avaliação de projetos e investidores sem critérios e evidências organizados. | Estruturar informações e apoiar a priorização de oportunidades com critérios mais claros. |
 
-**Como se relacionam?** O MagicGate apoia a construção do produto; o ACCESS governa o uso de ferramentas e permissões; e o Investor Hunter/RaisePact organiza a análise de oportunidades de crescimento.
+**Como se relacionam?** O ˜MagicGate˜ apoia a construção do produto; o ˜Access˜ governa o uso de ferramentas e permissões; e o ˜RaisePact˜ organiza a análise de oportunidades de crescimento.
 
 Os três repositórios de implementação são privados. **A integração entre as soluções é uma direção em desenvolvimento, não um serviço completo comprovado em produção.** Dados privados não são compartilhados automaticamente; toda conexão depende de permissões, segurança e validação.
 
 **Para investidores e parceiros:** buscamos conversas sobre uma oportunidade de construir soluções de software com evidências, governança e potencial de escala. Não prometemos retorno financeiro, clientes ou faturamento que ainda não foram comprovados.
 
-**[Conheça a história, os problemas, as soluções e o convite ao investidor](ECOSSISTEMA_ARKHE.md)** · [Site MagicGate](https://magicgate.dev) · [Conheça o RaisePact](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+**[Conheça a história, os problemas, as soluções e o convite ao investidor](ECOSSISTEMA_ARKHE.md)** · [Site ˜MagicGate˜](https://magicgate.dev) · [Conheça o ˜RaisePact˜](https://raisepact-vnlcwb.v2.appdeploy.ai/)
 
 ---
 
@@ -37,19 +39,19 @@ Os três repositórios de implementação são privados. **A integração entre 
 
 ---
 
-## Detalhamento do produto MagicGate
+## Detalhamento do produto ˜MagicGate˜
 
 ## Transforme planos de software em execução verificável
 
 **Da intenção à execução. Da execução à evidência. Da evidência à escala.**
 
-MagicGate é uma camada de execução para engenharia de software criada para reduzir o trabalho operacional entre **decidir o que precisa ser feito** e **comprovar que foi feito corretamente**.
+˜MagicGate˜ é uma camada de execução para engenharia de software criada para reduzir o trabalho operacional entre **decidir o que precisa ser feito** e **comprovar que foi feito corretamente**.
 
-Em vez de tratar automação como uma caixa-preta, o MagicGate organiza a entrega em planos determinísticos, executa tarefas sob controles de segurança, valida resultados, persiste estado e produz evidências e métricas observáveis.
+Em vez de tratar automação como uma caixa-preta, o ˜MagicGate˜ organiza a entrega em planos determinísticos, executa tarefas sob controles de segurança, valida resultados, persiste estado e produz evidências e métricas observáveis.
 
 > **Release de produto:** v0.3.0  
 > **VS Code Control Center:** release privada 0.1.1  
-> **Site oficial:** [magicgate.dev](https://magicgate.dev)  
+> **Site oficial:** [magicgate.dev](https://magicgate.dev)
 > **Código-fonte:** privado por design
 
 ## O problema
@@ -58,11 +60,11 @@ Equipes de software perdem capacidade em tarefas que não deveriam consumir o me
 
 Ferramentas de IA aceleram a produção de código, mas velocidade sem controle cria uma nova pergunta: **como transformar intenção em entrega reproduzível, auditável e segura?**
 
-O MagicGate foi construído para ocupar exatamente esse espaço.
+O ˜MagicGate˜ foi construído para ocupar exatamente esse espaço.
 
 ## A proposta
 
-O fluxo do MagicGate é simples de explicar e rigoroso na execução:
+O fluxo do ˜MagicGate˜ é simples de explicar e rigoroso na execução:
 
 **definir → planejar → executar → testar → validar → registrar → medir → evoluir**
 
@@ -99,22 +101,22 @@ O objetivo não é substituir julgamento de engenharia. É ampliar a capacidade 
 A baseline v0.3.0 reúne uma camada operacional de execução, não apenas uma demonstração conceitual:
 
 - CLI canônica;
-- planos determinísticos `magicgate-plan-v1`;
+- planos determinísticos `˜MagicGate˜-plan-v1`;
 - ordenação de tarefas e dependências;
 - execução controlada e retomada;
 - persistência de estado;
 - evidências obrigatórias para conclusão;
 - Runtime Doctor;
 - SafetyPolicy e CostGuard;
-- métricas operacionais e MagicGate Productivity Index (MGPI);
+- métricas operacionais e ˜MagicGate˜ Productivity Index (MGPI);
 - validação de releases;
 - baseline técnica do Remote Link;
-- Investor Hunter com scoring determinístico e controles de divulgação;
+- ˜RaisePact˜ com scoring determinístico e controles de divulgação;
 - VS Code Control Center privado, com Doctor, Run Plan, Resume, Safety, Metrics e Active Plans.
 
 ## Evidência antes de promessa
 
-O MagicGate adota uma regra comercial e técnica deliberadamente simples:
+O ˜MagicGate˜ adota uma regra comercial e técnica deliberadamente simples:
 
 > **execução real + evidência observável = métrica validada**
 
@@ -130,9 +132,9 @@ Resultados públicos são apresentados como observações das execuções que os
 
 Comparações humano-equivalentes, projeções econômicas e ganhos futuros permanecem classificados como estimativas até que benchmarks comparáveis sustentem conclusões mais amplas.
 
-## MagicGate no VS Code
+## ˜MagicGate˜ no VS Code
 
-O Control Center aproxima o ciclo de execução do ambiente em que o desenvolvedor já trabalha. A release privada **0.1.1** da extensão VS Code está empacotada e integra os fluxos principais do MagicGate.
+O Control Center aproxima o ciclo de execução do ambiente em que o desenvolvedor já trabalha. A release privada **0.1.1** da extensão VS Code está empacotada e integra os fluxos principais do ˜MagicGate˜.
 
 O projeto mantém uma distinção importante entre disponibilidade do artefato e validação de plataforma: o launcher Windows foi implementado e empacotado, enquanto a aprovação E2E Windows permanece condicionada à cadeia completa de instalação, ativação, launcher e execução verificável.
 
@@ -140,14 +142,14 @@ Essa disciplina evita transformar “funciona em teoria” em alegação comerci
 
 ## Segurança por design
 
-Automação útil precisa ter limites previsíveis. O MagicGate incorpora controles para que velocidade não dependa de reduzir segurança:
+Automação útil precisa ter limites previsíveis. O ˜MagicGate˜ incorpora controles para que velocidade não dependa de reduzir segurança:
 
 - execução restrita ao workspace autorizado;
 - allowlist de executáveis;
 - bloqueio de ações destrutivas;
 - bloqueio de material com aparência de segredo;
 - CostGuard para impedir consumo externo não autorizado;
-- autenticação ChatGPT delegada ao Codex CLI, sem custódia de tokens pelo MagicGate;
+- autenticação ChatGPT delegada ao Codex CLI, sem custódia de tokens pelo ˜MagicGate˜;
 - conclusão condicionada a evidências;
 - divulgação externa sujeita a governança específica.
 
@@ -163,17 +165,17 @@ A referência comercial inicial definida para validação é direta:
 
 A infraestrutura comercial de cadastro, elegibilidade, cobrança, licenciamento, API Keys e consoles está no roadmap de lançamento. Nenhuma cobrança é apresentada como ativa antes dessa camada estar operacional e validada.
 
-## Por que MagicGate
+## Por que ˜MagicGate˜
 
 A tese do produto não é “IA escreve código”. O mercado já está provando que modelos conseguem ajudar nisso.
 
-A tese do MagicGate é outra: **quanto mais execução é delegada à automação, mais valiosa se torna a camada que controla, valida, registra e mede essa execução.**
+A tese do ˜MagicGate˜ é outra: **quanto mais execução é delegada à automação, mais valiosa se torna a camada que controla, valida, registra e mede essa execução.**
 
-MagicGate foi desenhado para ser essa camada entre intenção e entrega verificável.
+˜MagicGate˜ foi desenhado para ser essa camada entre intenção e entrega verificável.
 
 ## Investidores e parceiros estratégicos
 
-O MagicGate está aberto a conversas com investidores e parceiros que compartilhem a visão de uma engenharia de software com mais automação, evidência e controle.
+O ˜MagicGate˜ está aberto a conversas com investidores e parceiros que compartilhem a visão de uma engenharia de software com mais automação, evidência e controle.
 
 Buscamos especialmente experiência e distribuição em:
 
@@ -186,7 +188,7 @@ Buscamos especialmente experiência e distribuição em:
 
 Materiais privados são compartilhados de forma controlada. Código-fonte, credenciais, dados pessoais, arquitetura interna e informações confidenciais não fazem parte da divulgação pública.
 
-**Produto, parceria ou investimento:** acesse [magicgate.dev](https://magicgate.dev) e utilize o canal oficial de contato.
+**Produto, parceria ou investimento:** acesse o [site oficial do ˜MagicGate˜](https://magicgate.dev) e utilize o canal oficial de contato.
 
 ## Roadmap de alto nível
 
@@ -209,4 +211,4 @@ Cada promoção continua condicionada aos gates técnicos e de segurança aplic�
 
 ### Plan. Execute. Measure. Scale.
 
-**MagicGate — transforme automação em execução que você pode verificar.**
+**˜MagicGate˜ — transforme automação em execução que você pode verificar.**

@@ -4,7 +4,7 @@
 
 ## Regra permanente
 
-Todo repositório público do ecossistema ARKHE | AIO deve conter somente artefatos deliberadamente públicos.
+Todo repositório público do ecossistema ˜Arkhé˜ | AIO deve conter somente artefatos deliberadamente públicos.
 
 É proibido versionar, em qualquer branch ou histórico alcançável:
 

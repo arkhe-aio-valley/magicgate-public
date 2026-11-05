@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-Este repositório é a superfície pública de informações do MagicGate. Sua função é comunicação, transparência, evidências aprovadas e governança pública do projeto.
+Este repositório é a superfície pública de informações do ˜MagicGate˜. Sua função é comunicação, transparência, evidências aprovadas e governança pública do projeto.
 
 ## Autoridade dos mantenedores
 
@@ -32,6 +32,6 @@ Se uma informação pública se tornar imprecisa, enganosa, sem suporte ou inseg
 
 ## Limite privado/público
 
-O repositório público deve permanecer operacionalmente separado dos ativos privados de implementação do MagicGate.
+O repositório público deve permanecer operacionalmente separado dos ativos privados de implementação do ˜MagicGate˜.
 
 O acesso público a este repositório não concede acesso a repositórios privados, sistemas, ambientes, código-fonte, credenciais ou histórico interno do projeto.

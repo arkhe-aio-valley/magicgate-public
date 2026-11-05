@@ -4,7 +4,7 @@
 
 ## Permanent rule
 
-Every public repository in the ARKHE | AIO ecosystem must contain only artifacts deliberately intended for public disclosure.
+Every public repository in the ˜Arkhé˜ | AIO ecosystem must contain only artifacts deliberately intended for public disclosure.
 
 It is forbidden to version, in any branch or reachable history:
 

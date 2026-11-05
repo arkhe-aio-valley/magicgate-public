@@ -2,13 +2,13 @@
 
 🌐 **Language:** [Português](SUPPORT.md) | [English](SUPPORT.en.md)
 
-This repository supports questions about information intentionally disclosed by the MagicGate project.
+This repository supports questions about information intentionally disclosed by the ˜MagicGate˜ project.
 
 ## Appropriate topics
 
 Public questions may address:
 
-- what MagicGate does;
+- what ˜MagicGate˜ does;
 - product concepts and positioning;
 - publicly announced capabilities;
 - status and roadmap at a high level;

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180" viewBox="0 0 600 180" role="img" aria-labelledby="title description">
+  <title id="title">˜Access˜ identity</title>
+  <desc id="description">A controlled gateway mark and ˜Access˜ wordmark, using the ARKHE group's teal and deep navy palette.</desc>
+  <rect width="600" height="180" rx="24" fill="#f7fbfa"/>
+  <g fill="none" stroke="#00bfa5" stroke-linecap="round" stroke-linejoin="round" stroke-width="10">
+    <path d="M38 138V48a38 38 0 0 1 76 0v90"/>
+    <path d="M38 138h76"/>
+    <path d="M58 93h36"/>
+  </g>
+  <circle cx="76" cy="73" r="13" fill="#0c2532"/>
+  <path d="M76 84v22" stroke="#0c2532" stroke-linecap="round" stroke-width="8"/>
+  <text x="150" y="115" fill="#0c2532" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">˜Access˜</text>
+</svg>

@@ -50,4 +50,4 @@ Quando a classificação for incerta, o conteúdo deve permanecer não publicado
 
 ## Princípio do repositório público
 
-A publicação neste repositório é divulgação intencional apenas do material específico publicado. Ela não implica divulgação, licenciamento ou autorização sobre qualquer ativo não público do MagicGate.
+A publicação neste repositório é divulgação intencional apenas do material específico publicado. Ela não implica divulgação, licenciamento ou autorização sobre qualquer ativo não público do ˜MagicGate˜.

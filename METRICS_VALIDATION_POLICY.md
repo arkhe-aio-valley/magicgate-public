@@ -4,7 +4,7 @@
 
 ## Princípio
 
-Somente métricas derivadas de testes efetivamente executados podem ser apresentadas como métricas validadas do MagicGate.
+Somente métricas derivadas de testes efetivamente executados podem ser apresentadas como métricas validadas do ˜MagicGate˜.
 
 ## Métrica validada
 
