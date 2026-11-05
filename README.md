@@ -1,214 +1,123 @@
-# ˜Arkhé˜
+# Arkhé — ideias extraordinárias merecem chegar mais longe
 
-🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
+**Da ideia à tecnologia. Da tecnologia à confiança. Da confiança ao crescimento.**
 
-<img src="assets/brands/ARKHE_ecosystem.svg" alt="Grupo ˜Arkhé˜ e suas soluções: ˜MagicGate˜, ˜Access˜ e ˜RaisePact˜." width="900">
+🌐 **Idioma:** [Português](README.md) · [English — edição anterior, em revisão](README.en.md)
 
-<img src="assets/brands/Access_identity.svg" alt="Identidade visual de ˜Access˜ na paleta visual do grupo." width="300">
+> **ARKHÉ** é um grupo independente de soluções de tecnologia que enfrenta três obstáculos reais de quem constrói e expande negócios: **executar software com qualidade**, **controlar o uso de ferramentas inteligentes** e **preparar projetos para conquistar oportunidades de crescimento**.
 
-Este repositório é a apresentação pública do grupo **˜Arkhé˜** e continua sendo o repositório público oficial do ˜MagicGate˜.
+## O problema que queremos resolver
 
-> **Sobre:** Repositório público oficial do ˜MagicGate˜. Visão geral do projeto, roteiro, status de lançamento, métricas públicas e documentação. O código-fonte e a infraestrutura interna permanecem privados.
+Uma grande ideia pode fracassar antes mesmo de chegar ao mercado — não porque lhe falte potencial, mas porque transformar visão em produto exige esforço, controle, recursos e decisões difíceis.
 
-## Três repositórios, três problemas, três soluções
+O desenvolvimento se perde em tarefas repetitivas. O uso crescente de IA cria dúvidas sobre segurança, autorização e custos. E, quando chega o momento de apresentar o negócio, informações dispersas tornam difícil demonstrar sua qualidade, seus riscos e seu potencial.
 
-O grupo ˜Arkhé˜ reúne três soluções complementares. Cada uma pode funcionar de forma independente; a integração completa ainda não é apresentada como comprovada em produção.
+**Não basta ter uma ideia. É preciso construir, proteger e demonstrar seu valor.**
 
-| Repositório / solução | Problema | Proposta de solução |
-|---|---|---|
-| **˜MagicGate˜** (`˜MagicGate˜`, privado) | Tarefas operacionais repetitivas e pouca visibilidade sobre o que foi realmente concluído. | Planejar e executar trabalho de software sob controles, validando resultados e registrando evidências. |
-| **˜Access˜** (`access`, privado) | Acesso a ferramentas e serviços de IA sem regras claras de autorização e limites. | Governar permissões e condições de uso, incluindo ações que exigem intervenção ou devem ser bloqueadas. |
-| **˜RaisePact˜** (`investor-hunter`, privado) | Pesquisa e avaliação de projetos e investidores sem critérios e evidências organizados. | Estruturar informações e apoiar a priorização de oportunidades com critérios mais claros. |
+## A resposta da Arkhé
 
-**Como se relacionam?** O ˜MagicGate˜ apoia a construção do produto; o ˜Access˜ governa o uso de ferramentas e permissões; e o ˜RaisePact˜ organiza a análise de oportunidades de crescimento.
+**Três desafios. Três soluções especializadas. Uma visão de futuro.**
 
-Os três repositórios de implementação são privados. **A integração entre as soluções é uma direção em desenvolvimento, não um serviço completo comprovado em produção.** Dados privados não são compartilhados automaticamente; toda conexão depende de permissões, segurança e validação.
+A Arkhé reúne **MagicGate**, **Access** e **Raise Pack**. Cada produto resolve um problema específico e preserva sua autonomia. Juntos, compõem uma visão de jornada tecnológica mais contínua, com controles, evidências e decisões humanas onde elas realmente importam.
 
-**Para investidores e parceiros:** buscamos conversas sobre uma oportunidade de construir soluções de software com evidências, governança e potencial de escala. Não prometemos retorno financeiro, clientes ou faturamento que ainda não foram comprovados.
+<!-- Diagrama conceitual de ecossistema. Não é logomarca aprovada da holding nem prova de integração operacional. -->
+<img src="assets/brands/ARKHE_ecosystem.svg" alt="Diagrama ilustrativo da visão de três produtos do grupo Arkhé; nomenclaturas do desenho aguardam alinhamento à nova marca Raise Pack." width="900">
 
-**[Conheça a história, os problemas, as soluções e o convite ao investidor](ECOSSISTEMA_ARKHE.md)** · [Site ˜MagicGate˜](https://magicgate.dev) · [Conheça o ˜RaisePact˜](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+| Sua necessidade | A solução | Valor proposto |
+| --- | --- | --- |
+| **Construir com menos fricção** | **MagicGate** | Orquestrar tarefas de engenharia e validar entregas com evidências. |
+| **Operar IA com mais controle** | **Access** | Definir permissões, limites e decisões de autorização. |
+| **Preparar-se para crescer** | **Raise Pack** | Organizar e avaliar projetos e oportunidades com critérios rastreáveis. |
 
----
+**Visão conjunta:** uma jornada que vai da construção técnica à governança e à apresentação de oportunidades de investimento. **A integração completa dos três produtos é uma direção de desenvolvimento, não uma capacidade já comprovada em produção.** Nenhum dado privado é compartilhado automaticamente entre eles.
 
-## Próximos passos
+## MagicGate — transforme intenção em execução verificável
 
-- Manter públicos a visão geral, o roteiro, o status de lançamento, as métricas verificáveis e a documentação.
-- Validar cada solução e cada integração separadamente antes de anunciar capacidades ou resultados.
-- Atualizar as evidências e o status publicados conforme novos gates forem concluídos.
-- Manter código-fonte, credenciais e infraestrutura interna nos repositórios privados.
+<img src="assets/brands/MagicGate_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca MagicGate do kit oficial, com assinatura Where AI Meets Execution." width="430">
 
----
+### A dor
 
-## Detalhamento do produto ˜MagicGate˜
+Criar software não é apenas escrever código. É organizar dependências, executar processos, testar, corrigir falhas, retomar trabalhos interrompidos e provar que a entrega realmente funciona. Esse trabalho operacional consome tempo valioso de equipes e desenvolvedores.
 
-## Transforme planos de software em execução verificável
+### A solução
 
-**Da intenção à execução. Da execução à evidência. Da evidência à escala.**
+O **MagicGate** organiza a engenharia de software em planos, execução controlada, testes, validações e evidências. Seu objetivo é ampliar a capacidade operacional sem transformar automação em uma caixa-preta.
 
-˜MagicGate˜ é uma camada de execução para engenharia de software criada para reduzir o trabalho operacional entre **decidir o que precisa ser feito** e **comprovar que foi feito corretamente**.
+**Planejar → executar → testar → validar → registrar → medir → evoluir.**
 
-Em vez de tratar automação como uma caixa-preta, o ˜MagicGate˜ organiza a entrega em planos determinísticos, executa tarefas sob controles de segurança, valida resultados, persiste estado e produz evidências e métricas observáveis.
+**O que a baseline documentada oferece:** planos determinísticos, CLI, retomada e persistência de estado, Runtime Doctor, SafetyPolicy, CostGuard, métricas operacionais e MGPI, além de uma linha privada do VS Code Control Center. Compatibilidade, distribuição e disponibilidade comercial dependem dos respectivos gates.
 
-> **Release de produto:** v0.3.0  
-> **VS Code Control Center:** release privada 0.1.1  
-> **Site oficial:** [magicgate.dev](https://magicgate.dev)
-> **Código-fonte:** privado por design
+**Para quem:** desenvolvedores, startups, software houses e equipes de engenharia que querem menos esforço repetitivo e mais confiança na entrega.
 
-## O problema
+**[Conheça o MagicGate](https://magicgate.dev)**
 
-Equipes de software perdem capacidade em tarefas que não deveriam consumir o melhor tempo de engenharia: coordenar etapas repetitivas, conferir dependências, retomar execuções interrompidas, reunir evidências, validar gates, acompanhar progresso e reconstruir o que aconteceu depois de uma automação.
+## Access — inteligência precisa de limites claros
 
-Ferramentas de IA aceleram a produção de código, mas velocidade sem controle cria uma nova pergunta: **como transformar intenção em entrega reproduzível, auditável e segura?**
+<!-- Arte conceitual disponível no repositório; aprovação como logomarca oficial ainda não comprovada. -->
+<img src="assets/brands/Access_identity.svg" alt="Identidade visual conceitual do Access, sujeita a validação da marca." width="330">
 
-O ˜MagicGate˜ foi construído para ocupar exatamente esse espaço.
+### A dor
 
-## A proposta
+Quanto mais equipes dependem de IA, integrações e serviços digitais, maior é a necessidade de responder: **quem pode acessar, quais ações são permitidas, o que precisa de aprovação e o que deve ser bloqueado?**
 
-O fluxo do ˜MagicGate˜ é simples de explicar e rigoroso na execução:
+Sem regras previsíveis, a automação pode multiplicar riscos em vez de gerar eficiência.
 
-**definir → planejar → executar → testar → validar → registrar → medir → evoluir**
+### A solução
 
-O objetivo não é substituir julgamento de engenharia. É ampliar a capacidade do time removendo trabalho operacional repetitivo e tornando a automação mais controlável.
+O **Access** é a proposta de uma camada de governança de permissões e capacidades. Busca tornar explícitas as condições de uso das ferramentas: permitir quando autorizado, solicitar intervenção humana quando necessário e negar operações fora das políticas.
 
-### Para equipes de engenharia
+**Para quem:** equipes e organizações que precisam adotar inteligência artificial com responsabilidade, rastreabilidade e limites operacionais.
 
-- menos coordenação manual entre etapas de uma entrega;
-- retomada de execuções com estado persistido;
-- progresso derivado de tarefas realmente concluídas;
-- evidências para auditoria e diagnóstico;
-- métricas de autonomia, qualidade, retries e intervenção humana;
-- integração com fluxos de desenvolvimento existentes.
+**Estado:** possui código e contratos próprios; integrações e operação externa devem ser comprovadas separadamente, não presumidas a partir desta apresentação.
 
-### Para startups e software houses
+## Raise Pack — transforme potencial em uma oportunidade compreensível
 
-- mais capacidade operacional sem depender de uma camada crescente de processos manuais;
-- padronização de execução entre projetos;
-- visibilidade sobre o que a automação fez e por quê;
-- controle explícito de custo e segurança;
-- base para escalar automação sem abrir mão de governança.
+<!-- Arte proveniente do kit de marca anterior, com integridade de arquivo verificada. A tipografia/nome no ativo precisa de nova aprovação para a identidade pública Raise Pack. -->
+<img src="assets/brands/RaisePact_logo_horizontal_dark_with_tagline_transparent.png" alt="Arte de marca do produto de captação, proveniente do kit validado; atualização do nome visual para Raise Pack pendente de aprovação." width="430">
 
-### Para organizações com requisitos de controle
+### A dor
 
-- comportamento fail-closed;
-- SafetyPolicy e CostGuard;
-- proteção contra ações destrutivas e material com aparência de segredo;
-- confinamento ao workspace autorizado;
-- evidência observável como requisito de conclusão;
-- separação entre automação e decisões humanas críticas.
+Ter uma boa solução não significa conseguir apresentá-la ao investidor certo. Fundadores frequentemente enfrentam pesquisa dispersa, dificuldade para comprovar diferenciais, pouca clareza sobre riscos e falta de critérios para identificar oportunidades compatíveis.
 
-## O que já existe
+**Potencial sem organização fica difícil de compreender. Evidência sem contexto fica difícil de avaliar.**
 
-A baseline v0.3.0 reúne uma camada operacional de execução, não apenas uma demonstração conceitual:
+### A solução
 
-- CLI canônica;
-- planos determinísticos `˜MagicGate˜-plan-v1`;
-- ordenação de tarefas e dependências;
-- execução controlada e retomada;
-- persistência de estado;
-- evidências obrigatórias para conclusão;
-- Runtime Doctor;
-- SafetyPolicy e CostGuard;
-- métricas operacionais e ˜MagicGate˜ Productivity Index (MGPI);
-- validação de releases;
-- baseline técnica do Remote Link;
-- ˜RaisePact˜ com scoring determinístico e controles de divulgação;
-- VS Code Control Center privado, com Doctor, Run Plan, Resume, Safety, Metrics e Active Plans.
+O **Raise Pack** trabalha a estruturação e a avaliação de projetos para captação: organiza evidências, critérios, maturidade, riscos e compatibilidade com perfis de investidores. Sua visão é apoiar apresentações mais claras e decisões mais informadas.
 
-## Evidência antes de promessa
+O método distingue **qualidade do projeto, potencial futuro, compatibilidade com investidores, confiança das evidências e estimativas econômicas**. Projeções não se confundem com receita real; avaliações integrais e valuation indicativo dependem de pesquisa suficiente e validação apropriada.
 
-O ˜MagicGate˜ adota uma regra comercial e técnica deliberadamente simples:
+**Para quem:** fundadores, startups, equipes de inovação e profissionais que preparam projetos para parcerias e investimentos.
 
-> **execução real + evidência observável = métrica validada**
+**[Conheça a apresentação atual do produto](https://raisepact-vnlcwb.v2.appdeploy.ai/)**
 
-Resultados públicos são apresentados como observações das execuções que os produziram — não como garantia universal de desempenho.
+## Por que isso importa para investidores e parceiros?
 
-| Evidência registrada | Resultado observado |
-|---|---:|
-| Control Center — plano de 3 tarefas | progresso canônico 33% → 66% → 100% |
-| Bateria funcional registrada | 100% de sucesso e autonomia |
-| Remote Link — baseline v0.3.0 | 58/58 testes aprovados, typecheck e build aprovados |
-| Execução operacional adicional | 14,90 s, 100% de autonomia e 0 s de intervenção humana |
-| MGPI em execuções registradas | 99,97–99,99 |
+A Arkhé propõe uma conexão entre três necessidades que costumam ser tratadas separadamente: **capacidade de construir, responsabilidade para operar e clareza para crescer**.
 
-Comparações humano-equivalentes, projeções econômicas e ganhos futuros permanecem classificados como estimativas até que benchmarks comparáveis sustentem conclusões mais amplas.
+Buscamos conversas com parceiros que possam contribuir com experiência em desenvolvimento de software, infraestrutura, governança de IA, SaaS B2B, pesquisa de mercado e expansão comercial.
 
-## ˜MagicGate˜ no VS Code
+**Oportunidade não é promessa:** não divulgamos clientes, faturamento, retorno financeiro, valuation, integração integral ou desempenho universal sem evidência. Materiais confidenciais permanecem sob controle de acesso e divulgação específica.
 
-O Control Center aproxima o ciclo de execução do ambiente em que o desenvolvedor já trabalha. A release privada **0.1.1** da extensão VS Code está empacotada e integra os fluxos principais do ˜MagicGate˜.
+## Status e transparência
 
-O projeto mantém uma distinção importante entre disponibilidade do artefato e validação de plataforma: o launcher Windows foi implementado e empacotado, enquanto a aprovação E2E Windows permanece condicionada à cadeia completa de instalação, ativação, launcher e execução verificável.
+- **MagicGate:** possui baseline técnica e artefatos privados; novos releases, plataformas, cobrança e publicação requerem homologação específica.
+- **Access:** componentes e contratos de governança; integrações e disponibilização externa dependem de validação.
+- **Raise Pack:** base de avaliação e documentação; a experiência integral de pesquisa, captação e integração continua sujeita a desenvolvimento e gates próprios.
+- **Grupo Arkhé:** três soluções autônomas, com uma direção de integração — **não um pacote único já homologado**.
 
-Essa disciplina evita transformar “funciona em teoria” em alegação comercial.
+### Kit de marca — o que é validado e o que ainda precisa de aprovação?
 
-## Segurança por design
+**Arquivos de origem conferidos:** as logomarcas MagicGate e do kit anterior do produto de captação, já presentes em `assets/brands/`, têm conteúdo binário idêntico ao dos kits entregues pelo proprietário. Isso valida a **proveniência do arquivo**, não constitui nova aprovação de renomeação nem certificação de registro marcário.
 
-Automação útil precisa ter limites previsíveis. O ˜MagicGate˜ incorpora controles para que velocidade não dependa de reduzir segurança:
+**Ainda não aprovados como logos finais:** o diagrama `ARKHE_ecosystem.svg` é uma ilustração; `Access_identity.svg` é uma proposta de identidade, não há comprovação de sua aprovação como logomarca oficial. O lettering da arte anterior do produto de captação deverá ser atualizado e aprovado para a marca **Raise Pack** antes de ser denominado identidade final atual.
 
-- execução restrita ao workspace autorizado;
-- allowlist de executáveis;
-- bloqueio de ações destrutivas;
-- bloqueio de material com aparência de segredo;
-- CostGuard para impedir consumo externo não autorizado;
-- autenticação ChatGPT delegada ao Codex CLI, sem custódia de tokens pelo ˜MagicGate˜;
-- conclusão condicionada a evidências;
-- divulgação externa sujeita a governança específica.
+Não confundir mockups ilustrativos, diagramas de relacionamento, derivativos SVG ou arquivos históricos com **logomarcas oficiais homologadas**. A substituição de ativos exige matriz de origem, conferência visual do proprietário e testes de renderização.
 
-## Oferta de lançamento
+## Documentação e contato
 
-A referência comercial inicial definida para validação é direta:
+**[Visão ampliada do ecossistema](ECOSSISTEMA_ARKHE.md)** · **[MagicGate](https://magicgate.dev)** · **[Raise Pack](https://raisepact-vnlcwb.v2.appdeploy.ai/)**
 
-| Oferta | Condição |
-|---|---:|
-| Avaliação | **10 dias grátis** |
-| Assinatura após o trial | **US$ 19/mês** |
-| Renovação | mensal |
+[Segurança](SECURITY.md) · [Governança](GOVERNANCE.md) · [Divulgação pública](DISCLOSURE_POLICY.md) · [Validação de métricas](METRICS_VALIDATION_POLICY.md) · [Suporte](SUPPORT.md)
 
-A infraestrutura comercial de cadastro, elegibilidade, cobrança, licenciamento, API Keys e consoles está no roadmap de lançamento. Nenhuma cobrança é apresentada como ativa antes dessa camada estar operacional e validada.
-
-## Por que ˜MagicGate˜
-
-A tese do produto não é “IA escreve código”. O mercado já está provando que modelos conseguem ajudar nisso.
-
-A tese do ˜MagicGate˜ é outra: **quanto mais execução é delegada à automação, mais valiosa se torna a camada que controla, valida, registra e mede essa execução.**
-
-˜MagicGate˜ foi desenhado para ser essa camada entre intenção e entrega verificável.
-
-## Investidores e parceiros estratégicos
-
-O ˜MagicGate˜ está aberto a conversas com investidores e parceiros que compartilhem a visão de uma engenharia de software com mais automação, evidência e controle.
-
-Buscamos especialmente experiência e distribuição em:
-
-- developer tools e infraestrutura de engenharia;
-- inteligência artificial aplicada ao ciclo de software;
-- SaaS B2B;
-- segurança e governança de automação;
-- distribuição para startups, software houses e equipes de engenharia;
-- expansão internacional.
-
-Materiais privados são compartilhados de forma controlada. Código-fonte, credenciais, dados pessoais, arquitetura interna e informações confidenciais não fazem parte da divulgação pública.
-
-**Produto, parceria ou investimento:** acesse o [site oficial do ˜MagicGate˜](https://magicgate.dev) e utilize o canal oficial de contato.
-
-## Roadmap de alto nível
-
-O próximo ciclo concentra-se em distribuição comercial controlada: evolução do Control Center e Remote Link, benchmarks comparáveis, camada de cadastro/licenciamento/cobrança, Customer Console, Admin Console e telemetria sanitizada.
-
-Cada promoção continua condicionada aos gates técnicos e de segurança aplicáveis.
-
-## Documentação pública
-
-- [Licença](LICENSE.md)
-- [Política de segurança](SECURITY.md)
-- [Política de divulgação pública](DISCLOSURE_POLICY.md)
-- [Política de validação de métricas](METRICS_VALIDATION_POLICY.md)
-- [Governança](GOVERNANCE.md)
-- [Contribuição](CONTRIBUTING.md)
-- [Código de conduta](CODE_OF_CONDUCT.md)
-- [Suporte](SUPPORT.md)
-
----
-
-### Plan. Execute. Measure. Scale.
-
-**˜MagicGate˜ — transforme automação em execução que você pode verificar.**
+**ARKHÉ — construir com evidência, operar com controle, crescer com clareza.**
