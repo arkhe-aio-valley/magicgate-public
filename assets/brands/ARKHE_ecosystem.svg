@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title description">
+  <title id="title">ARKHE group and its three tools</title>
+  <desc id="description">ARKHE connects MagicGate, ACCESS, and Investor Hunter, also known publicly as RaisePact.</desc>
+  <rect width="1200" height="430" rx="28" fill="#f7fbfa"/>
+  <g fill="none" stroke="#00bfa5" stroke-linecap="round" stroke-width="8">
+    <path d="M555 78 600 52 645 78"/>
+    <path d="M555 78 600 104 645 78"/>
+  </g>
+  <g fill="#0c2532" stroke="#f7fbfa" stroke-width="5">
+    <circle cx="555" cy="78" r="13"/>
+    <circle cx="600" cy="52" r="13"/>
+    <circle cx="645" cy="78" r="13"/>
+    <circle cx="600" cy="104" r="13"/>
+  </g>
+  <text x="600" y="160" fill="#0c2532" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="8" text-anchor="middle">ARKHE</text>
+  <g fill="none" stroke="#8eb8b0" stroke-linecap="round" stroke-width="3">
+    <path d="M600 180v30H210v26"/>
+    <path d="M600 210v26"/>
+    <path d="M600 210h390v26"/>
+  </g>
+  <g fill="#00bfa5">
+    <circle cx="210" cy="236" r="7"/>
+    <circle cx="600" cy="236" r="7"/>
+    <circle cx="990" cy="236" r="7"/>
+  </g>
+  <g>
+    <rect x="55" y="250" width="310" height="122" rx="18" fill="#ffffff" stroke="#d7e5e2" stroke-width="2"/>
+    <rect x="55" y="250" width="310" height="8" rx="4" fill="#00bfa5"/>
+    <circle cx="98" cy="310" r="20" fill="#e1f7f3"/>
+    <text x="98" y="317" fill="#008f7d" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle">01</text>
+    <text x="133" y="318" fill="#0c2532" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">MagicGate</text>
+
+    <rect x="445" y="250" width="310" height="122" rx="18" fill="#ffffff" stroke="#d7e5e2" stroke-width="2"/>
+    <rect x="445" y="250" width="310" height="8" rx="4" fill="#00bfa5"/>
+    <circle cx="488" cy="310" r="20" fill="#e1f7f3"/>
+    <text x="488" y="317" fill="#008f7d" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle">02</text>
+    <text x="523" y="318" fill="#0c2532" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">ACCESS</text>
+
+    <rect x="835" y="250" width="310" height="122" rx="18" fill="#ffffff" stroke="#d7e5e2" stroke-width="2"/>
+    <rect x="835" y="250" width="310" height="8" rx="4" fill="#00bfa5"/>
+    <circle cx="878" cy="310" r="20" fill="#e1f7f3"/>
+    <text x="878" y="317" fill="#008f7d" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle">03</text>
+    <text x="913" y="300" fill="#0c2532" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Investor Hunter</text>
+    <text x="913" y="329" fill="#4a666f" font-family="Arial, Helvetica, sans-serif" font-size="18">RaisePact</text>
+  </g>
+</svg>

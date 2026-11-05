@@ -1,28 +1,39 @@
-# MagicGate
+# ARKHE
 
 🌐 **Idioma:** [Português](README.md) | [English](README.en.md)
 
-<img src="assets/brands/MagicGate_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca oficial homologada do MagicGate — Where AI Meets Execution." width="420">
+<img src="assets/brands/ARKHE_ecosystem.svg" alt="Identidade visual do ARKHE conectando MagicGate, ACCESS e Investor Hunter, também conhecido publicamente como RaisePact." width="900">
 
-<img src="assets/brands/RaisePact_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca oficial homologada do RaisePact — Where Code Meets Capital." width="420">
+Este repositório é a apresentação pública do grupo **ARKHE** e continua sendo o repositório público oficial do MagicGate.
 
-## ARKHE: tecnologia que transforma ideias em oportunidades
+> **Sobre:** Repositório público oficial do MagicGate. Visão geral do projeto, roteiro, status de lançamento, métricas públicas e documentação. O código-fonte e a infraestrutura interna permanecem privados.
 
-**Uma boa ideia precisa de três coisas: ser construída, ser bem administrada e encontrar caminhos para crescer.** Hoje, essas etapas frequentemente ficam desconectadas. É para aproximá-las que o grupo ARKHE desenvolve três soluções complementares.
+## Três repositórios, três problemas, três soluções
 
-| Ferramenta | Explicação simples |
-|---|---|
-| **MagicGate** | Ajuda equipes a transformar planos de software em entregas verificáveis, com menos tarefas manuais e mais controle. |
-| **ACCESS** | Define regras para o uso de ferramentas e serviços de inteligência artificial, protegendo permissões e decisões importantes. |
-| **RaisePact** | Ajuda projetos a organizar evidências, avaliar sua preparação e identificar possíveis investidores com critérios mais claros. |
+O grupo ARKHE reúne três soluções complementares. Cada uma pode funcionar de forma independente; a integração completa ainda não é apresentada como comprovada em produção.
 
-**Como trabalham juntas?** O MagicGate apoia a construção do produto. O ACCESS orienta quem pode acessar ferramentas e o que está autorizado. O RaisePact oferece uma forma mais estruturada de apresentar e analisar oportunidades de crescimento.
+| Repositório / solução | Problema | Proposta de solução |
+|---|---|---|
+| **MagicGate** (`MagicGate`, privado) | Tarefas operacionais repetitivas e pouca visibilidade sobre o que foi realmente concluído. | Planejar e executar trabalho de software sob controles, validando resultados e registrando evidências. |
+| **ACCESS** (`access`, privado) | Acesso a ferramentas e serviços de IA sem regras claras de autorização e limites. | Governar permissões e condições de uso, incluindo ações que exigem intervenção ou devem ser bloqueadas. |
+| **Investor Hunter** (`investor-hunter`, privado; marca pública **RaisePact**) | Pesquisa e avaliação de projetos e investidores sem critérios e evidências organizados. | Estruturar informações e apoiar a priorização de oportunidades com critérios mais claros. |
 
-As três soluções têm responsabilidades independentes. **A integração completa é uma visão em desenvolvimento, não um serviço já comprovado em produção.** Dados privados não são compartilhados automaticamente, e toda conexão depende de permissões, segurança e validação.
+**Como se relacionam?** O MagicGate apoia a construção do produto; o ACCESS governa o uso de ferramentas e permissões; e o Investor Hunter/RaisePact organiza a análise de oportunidades de crescimento.
+
+Os três repositórios de implementação são privados. **A integração entre as soluções é uma direção em desenvolvimento, não um serviço completo comprovado em produção.** Dados privados não são compartilhados automaticamente; toda conexão depende de permissões, segurança e validação.
 
 **Para investidores e parceiros:** buscamos conversas sobre uma oportunidade de construir soluções de software com evidências, governança e potencial de escala. Não prometemos retorno financeiro, clientes ou faturamento que ainda não foram comprovados.
 
 **[Conheça a história, os problemas, as soluções e o convite ao investidor](ECOSSISTEMA_ARKHE.md)** · [Site MagicGate](https://magicgate.dev) · [Conheça o RaisePact](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+
+---
+
+## Próximos passos
+
+- Manter públicos a visão geral, o roteiro, o status de lançamento, as métricas verificáveis e a documentação.
+- Validar cada solução e cada integração separadamente antes de anunciar capacidades ou resultados.
+- Atualizar as evidências e o status publicados conforme novos gates forem concluídos.
+- Manter código-fonte, credenciais e infraestrutura interna nos repositórios privados.
 
 ---
 

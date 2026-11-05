@@ -1,28 +1,39 @@
-# MAGICGATE
+# ARKHE
 
 🌐 **Language:** [Português](README.md) | [English](README.en.md)
 
-<img src="assets/brands/MagicGate_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca oficial homologada do MagicGate — Where AI Meets Execution." width="420">
+<img src="assets/brands/ARKHE_ecosystem.svg" alt="ARKHE visual identity connecting MagicGate, ACCESS, and Investor Hunter, also publicly known as RaisePact." width="900">
 
-<img src="assets/brands/RaisePact_logo_horizontal_dark_with_tagline_transparent.png" alt="Logomarca oficial homologada do RaisePact — Where Code Meets Capital." width="420">
+This repository is the public presentation of the **ARKHE** group and remains the official public repository for MagicGate.
 
-## ARKHE: technology that helps turn ideas into opportunities
+> **About:** Official public repository for MagicGate. Project overview, roadmap, release status, public metrics, and documentation. Source code and internal infrastructure remain private.
 
-**A good idea needs three things: to be built, to be managed responsibly, and to find a path to grow.** Today, these steps are often disconnected. The ARKHE group is developing three complementary solutions to bring them closer together.
+## Three repositories, three problems, three solutions
 
-| Tool | In plain language |
-|---|---|
-| **MagicGate** | Helps teams turn software plans into verifiable deliveries with less manual work and more control. |
-| **ACCESS** | Defines rules for using AI tools and services, safeguarding permissions and important decisions. |
-| **RaisePact** | Helps projects organize evidence, assess readiness, and identify potentially aligned investors using clearer criteria. |
+The ARKHE group brings together three complementary solutions. Each can operate independently; full integration is not claimed as proven in production.
 
-**How do they work together?** MagicGate supports building the product. ACCESS governs which tools and actions are authorized. RaisePact supports a more structured way of presenting and assessing growth opportunities.
+| Repository / solution | Problem | Proposed solution |
+|---|---|---|
+| **MagicGate** (`MagicGate`, private) | Repetitive operational work and limited visibility into what was actually completed. | Plan and execute software work under controls, validate outcomes, and record evidence. |
+| **ACCESS** (`access`, private) | Access to AI tools and services without clear authorization rules or usage limits. | Govern permissions and usage conditions, including actions requiring human review or denial. |
+| **Investor Hunter** (`investor-hunter`, private; public brand **RaisePact**) | Researching and assessing projects and investors without organized criteria and evidence. | Structure information and support opportunity prioritization with clearer criteria. |
 
-Each solution has its own responsibilities. **Full integration is an evolving vision, not a production capability already proven.** Private data does not flow automatically; connections require permissions, security, and validation.
+**How they relate:** MagicGate supports product development; ACCESS governs tool usage and permissions; Investor Hunter/RaisePact organizes the assessment of growth opportunities.
+
+All three implementation repositories are private. **Integration across the solutions is a direction under development, not a complete service proven in production.** Private data is not shared automatically; every connection requires permissions, security, and validation.
 
 **For investors and partners:** we welcome conversations about an opportunity to build evidence-driven, governed software solutions with room to scale. We do not promise unverified returns, customer counts, or revenue.
 
 **[Read the story, the problem, the solutions, and the investor invitation](ECOSSISTEMA_ARKHE.en.md)** · [MagicGate website](https://magicgate.dev) · [Meet RaisePact](https://raisepact-vnlcwb.v2.appdeploy.ai/)
+
+---
+
+## Next steps
+
+- Keep the group overview, roadmap, release status, verifiable metrics, and documentation public.
+- Validate each solution and integration separately before announcing capabilities or results.
+- Update published evidence and status as new validation gates are completed.
+- Keep source code, credentials, and internal infrastructure in private repositories.
 
 ---
 
