@@ -50,4 +50,4 @@ When classification is uncertain, the content should remain unpublished until re
 
 ## Public repository principle
 
-Publication in this repository is intentional disclosure of the specific material published. It does not imply disclosure, licensing, or authorization concerning any non-public ˜MagicGate˜ asset.
+Publication in this repository is intentional disclosure of the specific material published. It does not imply disclosure, licensing, or authorization concerning any non-public MagicGate asset.
