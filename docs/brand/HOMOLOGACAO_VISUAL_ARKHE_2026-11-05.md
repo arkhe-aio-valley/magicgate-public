@@ -9,6 +9,8 @@
 - Nome do arquivo recebido: `Prancha de Identidade Visual Arkhé.png`
 - Formato e dimensões: PNG, 1536x1024 px
 - SHA-256 dos bytes recebidos: `7396ce2fa62c7d1965beea173630d9851930b99df5049b62786df580d7678780`
+- Referência binária vinculada em armazenamento controlado (Google Drive, acesso sujeito às permissões da conta): https://drive.google.com/file/d/1SmWw4trFznqr_T6gkNk-FW72u631_Qaj/view?usp=drivesdk
+- **Verificação de recebimento no Drive:** arquivo encontrado novamente após upload, com nome esperado. O SHA-256 acima corresponde à imagem recebida nesta conversa; validar igualdade de bytes após baixar do Drive antes da promoção.
 - Base da aprovação: prancha visual anexada em 05/11/2026; o arquivo binário deve ser anexado ao repositório ou armazenamento controlado, conferido por hash e referenciado aqui antes de declarar entrega integral.
 - Nome canônico de exibição: **Arkhé**.
 - Slogan apresentado: **ARK of Possibilities. HEart at Scale.**
